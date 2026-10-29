@@ -19,7 +19,7 @@ api:
 plugins: []
 chapters:
 - slug: lecture-2026-09-27
-  title: 2026-09-27 · 证明方法与线性代数基础
+  title: 2026-09-27 · 证明与矩阵
   volume_uid: lecture-2026-09-27
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-04
@@ -27,18 +27,18 @@ chapters:
   volume_uid: lecture-2026-10-04
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-06
-  title: 2026-10-06 · 微积分与优化导论
+  title: 2026-10-06 · 微积分与优化
   volume_uid: lecture-2026-10-06
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-11
-  title: 2026-10-11 · 最优性条件与搜索方法
+  title: 2026-10-11 · 最优性与搜索
   volume_uid: lecture-2026-10-11
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-18
-  title: 2026-10-18 · 梯度法与约束优化
+  title: 2026-10-18 · 约束优化
   volume_uid: lecture-2026-10-18
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-25
-  title: 2026-10-25 · KKT 条件与近端方法
+  title: 2026-10-25 · KKT 与近端方法
   volume_uid: lecture-2026-10-25
   start_pattern: ^高级工程数学
