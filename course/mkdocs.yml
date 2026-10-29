@@ -49,14 +49,15 @@ markdown_extensions:
 - footnotes
 - toc:
     permalink: true
+    toc_depth: 2
 extra_javascript:
 - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
 - 首页: index.md
 - 课程讲义:
-  - '2026-09-27': chapters/lecture-2026-09-27.md
-  - '2026-10-04': chapters/lecture-2026-10-04.md
-  - '2026-10-06': chapters/lecture-2026-10-06.md
-  - '2026-10-11': chapters/lecture-2026-10-11.md
-  - '2026-10-18': chapters/lecture-2026-10-18.md
-  - '2026-10-25': chapters/lecture-2026-10-25.md
+  - 2026-09-27 · 证明方法与线性代数基础: chapters/lecture-2026-09-27.md
+  - 2026-10-04 · 线性变换与凸集: chapters/lecture-2026-10-04.md
+  - 2026-10-06 · 微积分与优化导论: chapters/lecture-2026-10-06.md
+  - 2026-10-11 · 最优性条件与搜索方法: chapters/lecture-2026-10-11.md
+  - 2026-10-18 · 梯度法与约束优化: chapters/lecture-2026-10-18.md
+  - 2026-10-25 · KKT 条件与近端方法: chapters/lecture-2026-10-25.md

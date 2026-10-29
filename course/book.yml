@@ -19,26 +19,26 @@ api:
 plugins: []
 chapters:
 - slug: lecture-2026-09-27
-  title: 2026-09-27 课程讲义
+  title: 2026-09-27 · 证明方法与线性代数基础
   volume_uid: lecture-2026-09-27
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-04
-  title: 2026-10-04 课程讲义
+  title: 2026-10-04 · 线性变换与凸集
   volume_uid: lecture-2026-10-04
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-06
-  title: 2026-10-06 课程讲义
+  title: 2026-10-06 · 微积分与优化导论
   volume_uid: lecture-2026-10-06
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-11
-  title: 2026-10-11 课程讲义
+  title: 2026-10-11 · 最优性条件与搜索方法
   volume_uid: lecture-2026-10-11
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-18
-  title: 2026-10-18 课程讲义
+  title: 2026-10-18 · 梯度法与约束优化
   volume_uid: lecture-2026-10-18
   start_pattern: ^高级工程数学
 - slug: lecture-2026-10-25
-  title: 2026-10-25 课程讲义
+  title: 2026-10-25 · KKT 条件与近端方法
   volume_uid: lecture-2026-10-25
   start_pattern: ^高级工程数学
