@@ -1,0 +1,44 @@
+source: official_api
+mineru_root: resources/mineru
+docs_out: docs
+volume_uid: lecture-2026-09-27
+toc_max_page: 0
+allow_missing_boundaries: false
+api:
+  token: ''
+  enable_formula: true
+  enable_table: true
+  model_version: vlm
+  sources:
+    lecture-2026-09-27: resources/pdfs/高级工程数学_非全-2026-09-27.pdf
+    lecture-2026-10-04: resources/pdfs/高级工程数学_非全-2026-10-04.pdf
+    lecture-2026-10-06: resources/pdfs/高工数_非全_2026_10_06.pdf
+    lecture-2026-10-11: resources/pdfs/高工数_2026_10_11.pdf
+    lecture-2026-10-18: resources/pdfs/高工数_非全_2026_10_18.pdf
+    lecture-2026-10-25: resources/pdfs/高工数_非全_2026_10_25.pdf
+plugins: []
+chapters:
+- slug: lecture-2026-09-27
+  title: 2026-09-27 课程讲义
+  volume_uid: lecture-2026-09-27
+  start_pattern: ^高级工程数学
+- slug: lecture-2026-10-04
+  title: 2026-10-04 课程讲义
+  volume_uid: lecture-2026-10-04
+  start_pattern: ^高级工程数学
+- slug: lecture-2026-10-06
+  title: 2026-10-06 课程讲义
+  volume_uid: lecture-2026-10-06
+  start_pattern: ^高级工程数学
+- slug: lecture-2026-10-11
+  title: 2026-10-11 课程讲义
+  volume_uid: lecture-2026-10-11
+  start_pattern: ^高级工程数学
+- slug: lecture-2026-10-18
+  title: 2026-10-18 课程讲义
+  volume_uid: lecture-2026-10-18
+  start_pattern: ^高级工程数学
+- slug: lecture-2026-10-25
+  title: 2026-10-25 课程讲义
+  volume_uid: lecture-2026-10-25
+  start_pattern: ^高级工程数学

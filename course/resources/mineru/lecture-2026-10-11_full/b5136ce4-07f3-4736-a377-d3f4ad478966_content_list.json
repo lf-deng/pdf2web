@@ -1,0 +1,3498 @@
+[
+    {
+        "type": "text",
+        "text": "高级工程数学",
+        "bbox": [
+            401,
+            231,
+            596,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2026-10-11",
+        "text_level": 2,
+        "bbox": [
+            421,
+            325,
+            573,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "沈超敏",
+        "bbox": [
+            459,
+            474,
+            538,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "计算机科学与技术学院",
+        "bbox": [
+            373,
+            549,
+            622,
+            603
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "cmshen@cs.ecnu.edu.cn",
+        "bbox": [
+            377,
+            623,
+            620,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "文附楼 105",
+        "bbox": [
+            437,
+            729,
+            560,
+            780
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1 / 41",
+        "bbox": [
+            951,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "今天内容",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            147,
+            113
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1. 上次内容（Ch. 5、Ch. 6 (Topic 1. Introduction)) 的复习拓展2. Topic 2 Condition3. Ch. 74. Gradient Methods5. Newton’s Methods",
+        "bbox": [
+            15,
+            250,
+            695,
+            784
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "上次: Elements of Calculus\n5.1 Sequences and Limits\n5.2 Differentiability\n5.3 The Derivative Matrix\n5.4 Differentiation Rules\n5.5 Level Sets and Gradients\n5.6 Taylor Series",
+        "bbox": [
+            15,
+            50,
+            388,
+            854
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 / 41",
+        "bbox": [
+            951,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Topic1 的知识点、重点、难点",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            432,
+            113
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "知识点",
+        "text_level": 2,
+        "bbox": [
+            19,
+            215,
+            105,
+            274
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "优化问题的一般形式：",
+        "bbox": [
+            41,
+            352,
+            320,
+            407
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min _ {\\boldsymbol {x} \\in \\Omega} f (\\boldsymbol {x})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            465,
+            419,
+            573,
+            494
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "其中 f(x) 为目标函数，Ω 为约束集合。",
+        "bbox": [
+            64,
+            517,
+            525,
+            576
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "优化问题的主要分类：有约束 / 无约束、凸 / 非凸、光滑 / 非光滑。",
+        "bbox": [
+            41,
+            600,
+            860,
+            658
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "局部最小点与全局最小点的概念。",
+        "bbox": [
+            41,
+            678,
+            454,
+            733
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梯度（Gradient）与 Hessian 矩阵在多维函数中的几何意义。",
+        "bbox": [
+            41,
+            756,
+            750,
+            815
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Topic 1 的知识点、重点、难点",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            443,
+            113
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "重点",
+        "text_level": 2,
+        "bbox": [
+            17,
+            137,
+            79,
+            192
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "优化问题的核心在于通过一阶条件 ∇f(x) = 0 寻找候选极值点，并利用二阶条件（Hessian 的正定性）判断其为极小点；凸函数中局部最小即为全局最小，而含约束问题则常可通过变量消元化为无约束形式。",
+        "bbox": [
+            15,
+            203,
+            980,
+            400
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Topic 1 的难点",
+        "text_level": 2,
+        "bbox": [
+            19,
+            462,
+            196,
+            517
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "区分局部最小点、鞍点与约束最小点。",
+        "bbox": [
+            41,
+            545,
+            507,
+            603
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "约束优化中如何判断最优解是否在边界上。",
+        "bbox": [
+            41,
+            623,
+            558,
+            682
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "一句话总结：",
+        "text_level": 2,
+        "bbox": [
+            17,
+            756,
+            169,
+            811
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本节核心在于理解优化问题的建模、分类与基本求解原则，掌握梯度和 Hessian 在判断极值中的作用，为后续最优条件的学习奠定基础。",
+        "bbox": [
+            15,
+            823,
+            980,
+            952
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            992
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "上次：习题",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            178,
+            113
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6.1 Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            50,
+            207,
+            350,
+            258
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            301,
+            580,
+            423
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in { \\mathcal { C } } ^ { 2 }$ . For each of the following specifications for $\\Omega , { \\pmb x } ^ { * }$ , and $f ,$ , determine if the given point ${ \\pmb x } ^ { * }$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer.",
+        "bbox": [
+            50,
+            458,
+            896,
+            623
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "b. $\\begin{array} { r l } & { f : \\mathbb { R } ^ { 2 }  \\mathbb { R } , \\Omega = \\{ { \\pmb x } = [ { \\pmb x } _ { 1 } , { \\pmb x } _ { 2 } ] ^ { \\top } : x _ { 1 } \\geq 1 , { \\pmb x } _ { 2 } \\geq 2 \\} , { \\pmb x } ^ { * } = [ 1 , 2 ] ^ { \\top } } \\\\ & { \\mathrm { g r a d i e n t ~ } \\nabla f ( { \\pmb x } ^ { * } ) = [ 1 , 0 ] ^ { \\top } . } \\end{array}$ , and",
+        "bbox": [
+            19,
+            721,
+            905,
+            847
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "答案：Possibly a local minimizer",
+        "bbox": [
+            15,
+            905,
+            333,
+            956
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "习题",
+        "text_level": 2,
+        "bbox": [
+            17,
+            101,
+            81,
+            160
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "6.1 Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            39,
+            219,
+            238,
+            258
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            282,
+            388,
+            364
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in { \\mathcal { C } } ^ { 2 }$ . For each of the following specifications for $\\Omega , { \\pmb x } ^ { * }$ , and $f ,$ determine if the given point ${ \\pmb x } ^ { * }$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer",
+        "bbox": [
+            39,
+            388,
+            596,
+            494
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "c. $f : \\mathbb { R } ^ { 2 }  \\mathbb { R } , \\Omega = \\lbrace x = [ x _ { 1 } , x _ { 2 } ] ^ { \\top } : x _ { 1 } \\geq 0 , x _ { 2 } \\geq 0 \\rbrace , x ^ { * } = [ 1 , 2 ] ^ { \\top }$ , gradient $\\nabla f ( \\pmb { x } ^ { * } ) = [ 0 , 0 ] ^ { \\top }$ , and Hessian $\\pmb { F } ( \\pmb { x } ^ { * } ) = \\pmb { I }$ (identity matrix).",
+        "bbox": [
+            30,
+            564,
+            593,
+            643
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "d. $f : \\mathbb { R } ^ { 2 }  \\mathbb { R } , \\Omega = \\lbrace x = \\lbrace x _ { 1 } , x _ { 2 } \\rbrace ^ { \\top } : x _ { 1 } \\geq 1 , x _ { 2 } \\geq 2 \\rbrace , x ^ { * } = [ 1 , 2 ] ^ { \\top }$ , gradient $\\nabla f ( { \\pmb x } ^ { * } ) = [ 1 , 0 ] ^ { \\top }$ , and Hessian",
+        "bbox": [
+            28,
+            662,
+            593,
+            741
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {F} (\\boldsymbol {x} ^ {*}) = \\left[ \\begin{array}{c c} 1 & 0 \\\\ 0 & - 1 \\end{array} \\right].\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            760,
+            401,
+            862
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "C 是, D 不是",
+        "bbox": [
+            19,
+            917,
+            108,
+            952
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 / 41",
+        "bbox": [
+            951,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "习题",
+        "text_level": 2,
+        "bbox": [
+            17,
+            101,
+            81,
+            160
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.1 Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            39,
+            219,
+            238,
+            258
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            282,
+            388,
+            364
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in { \\mathcal { C } } ^ { 2 }$ . For each of the following specifications for $\\Omega , { \\pmb x } ^ { * }$ , and $f ,$ determine if the given point ${ \\pmb x } ^ { * }$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer",
+        "bbox": [
+            39,
+            388,
+            596,
+            494
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "c. $f : \\mathbb { R } ^ { 2 }  \\mathbb { R } , \\Omega = \\lbrace x = [ x _ { 1 } , x _ { 2 } ] ^ { \\top } : x _ { 1 } \\geq 0 , x _ { 2 } \\geq 0 \\rbrace , x ^ { * } = [ 1 , 2 ] ^ { \\top }$ , gradient $\\nabla f ( \\pmb { x } ^ { * } ) = [ 0 , 0 ] ^ { \\top }$ , and Hessian $\\pmb { F } ( \\pmb { x } ^ { * } ) = \\pmb { I }$ (identity matrix).",
+        "bbox": [
+            30,
+            564,
+            593,
+            643
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "d. $f : \\mathbb { R } ^ { 2 }  \\mathbb { R } , \\Omega = \\{ \\mathbf { { \\boldsymbol { x } } } = \\{ \\mathbf { { \\boldsymbol { x } } } _ { 1 } , \\mathbf { { \\boldsymbol { x } } } _ { 2 } \\} ^ { \\top } : x _ { 1 } \\geq 1 , \\mathbf { { \\boldsymbol { x } } } _ { 2 } \\geq 2 \\} , \\mathbf { { \\boldsymbol { x } } } ^ { * } = [ 1 , 2 ] ^ { \\top }$ , gradient $\\nabla f ( { \\pmb x } ^ { * } ) = [ 1 , 0 ] ^ { \\top }$ , and Hessian",
+        "bbox": [
+            28,
+            662,
+            593,
+            741
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {F} (\\boldsymbol {x} ^ {*}) = \\left[ \\begin{array}{c c} 1 & 0 \\\\ 0 & - 1 \\end{array} \\right].\n$$",
+        "text_format": "latex",
+        "bbox": [
+            247,
+            760,
+            401,
+            862
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "C 是, D 不是",
+        "bbox": [
+            19,
+            917,
+            108,
+            952
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "7 / 41",
+        "bbox": [
+            951,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "今天：Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            13,
+            98,
+            359,
+            164
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Three acronyms:",
+        "bbox": [
+            17,
+            188,
+            194,
+            239
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "FONC (First Order Necessary Condition)",
+        "bbox": [
+            41,
+            274,
+            485,
+            329
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "SONC (Second Order Necessary Condition)",
+        "bbox": [
+            41,
+            341,
+            512,
+            396
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "SOSC (Second Order Suficient Condition)",
+        "bbox": [
+            41,
+            407,
+            503,
+            462
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/003dbc45dd705b31eacb26f09fb9a0ae606d9e83de743e01df935000ef3e6205.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            112,
+            533,
+            869,
+            992
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "interior pt ∇f (x\\*) = 0, ∇2 f (x\\*) ≥ 0",
+        "bbox": [
+            116,
+            827,
+            481,
+            878
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "general pt ∇f (x\\*) · d ≥0 ∀d",
+        "bbox": [
+            116,
+            886,
+            423,
+            933
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "8 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            992
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            24,
+            50,
+            273,
+            109
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "⋆ Conditions for Local Minimizers",
+        "text_level": 2,
+        "bbox": [
+            30,
+            149,
+            392,
+            192
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Global minimizer $\\pmb { x } ^ { \\ast } : f ( \\pmb { x } ) \\geqslant f \\left( \\pmb { x } ^ { \\ast } \\right) \\quad \\forall \\pmb { x } \\in \\Omega \\backslash \\left\\{ \\pmb { x } ^ { \\ast } \\right\\}$",
+        "bbox": [
+            39,
+            207,
+            565,
+            254
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Strict global minimizer $\\pmb { x } ^ { \\ast } : f ( \\pmb { x } ) > f \\left( \\pmb { x } ^ { \\ast } \\right) \\quad \\forall \\pmb { x } \\in \\Omega \\backslash \\left\\{ \\pmb { x } ^ { \\ast } \\right\\}$",
+        "bbox": [
+            39,
+            270,
+            620,
+            317
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Mathematically, “near” can be characterized as $\\| { \\pmb x } - { \\pmb x } ^ { * } \\| < \\varepsilon$",
+        "bbox": [
+            39,
+            329,
+            644,
+            376
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "● $\\scriptstyle { \\pmb { x } } ^ { * }$ is a local minimizer if ∃ε > 0, s.t.",
+        "bbox": [
+            39,
+            392,
+            412,
+            435
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (\\boldsymbol {x}) \\geqslant f \\left(\\boldsymbol {x} ^ {*}\\right) \\quad \\forall \\boldsymbol {x} \\in \\Omega \\backslash \\left\\{\\boldsymbol {x} ^ {*} \\right\\} \\& \\| \\boldsymbol {x} - \\boldsymbol {x} ^ {*} \\| <   \\varepsilon\n$$",
+        "text_format": "latex",
+        "bbox": [
+            256,
+            513,
+            710,
+            564
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e47e131434c70bbf1b665d17a650a179ee3ce23cf5dbe85dabb886e69d522a28.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            315,
+            654,
+            600,
+            909
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "9 / 41",
+        "bbox": [
+            949,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            24,
+            50,
+            273,
+            109
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "⋆ First Order Necessary Condition",
+        "text_level": 2,
+        "bbox": [
+            28,
+            137,
+            320,
+            176
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Theorem. $\\mathbf { \\boldsymbol { x } } ^ { * }$ is a local minimizer of f over Ω. Then for any feasible direction d at $\\mathbf { \\boldsymbol { x } } ^ { * }$ , we have",
+        "bbox": [
+            50,
+            188,
+            721,
+            270
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} \\geqslant 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            324,
+            282,
+            450,
+            325
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Explanation. 1 feasible direction d at a point $\\pmb { x } \\in \\Omega$ is a direction so that: starting from x and moving towards d remains in Ω.",
+        "bbox": [
+            52,
+            352,
+            719,
+            435
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Math language: ∃α > 0 s.t. $\\pmb { x } + \\alpha \\pmb { d } \\in \\Omega , \\forall \\alpha \\in [ 0 , \\alpha _ { 0 } ]$",
+        "bbox": [
+            52,
+            447,
+            465,
+            486
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/416bcd03a1ef7b98dc482a8faac6b3b22d4f59d8fc0ed155bd09a78a127a098e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            317,
+            490,
+            456,
+            607
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2 $\\nabla f \\left( \\mathbf { x } ^ { * } \\right) \\cdot d$ : inner product of two vectors.",
+        "bbox": [
+            52,
+            631,
+            395,
+            670
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also write as $\\begin{array} { r l r l } { d ^ { \\top } \\nabla f \\left( { \\pmb x } ^ { * } \\right) } & { { } \\mathrm { o r } } & { \\left( \\nabla f \\left( { \\pmb x } ^ { * } \\right) , { \\pmb d } \\right) , } & { \\left. \\nabla f \\left( { \\pmb x } ^ { * } \\right) , { \\pmb d } \\right. } \\end{array}$",
+        "bbox": [
+            52,
+            678,
+            518,
+            721
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "${ \\frac { \\partial f } { \\partial d } } \\triangleq \\nabla f$ · d is the directional derivative when $\\| \\pmb { d } \\| = 1$",
+        "bbox": [
+            55,
+            721,
+            465,
+            768
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3 Define $\\phi ( \\alpha ) = f \\left( \\boldsymbol { x } ^ { * } + \\alpha d \\right)$ for $\\alpha \\in [ 0 , \\alpha _ { 0 } ]$ , then",
+        "bbox": [
+            35,
+            776,
+            456,
+            815
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (0) = \\left\\{ \\begin{array}{l l} \\lim _ {\\alpha \\to 0 ^ {+}} \\frac {\\phi (\\alpha) - \\phi (0)}{\\alpha} = \\lim _ {\\alpha \\to 0 ^ {+}} \\frac {f (\\boldsymbol {x} ^ {*} + \\alpha \\boldsymbol {d}) - f (\\boldsymbol {x} ^ {*})}{\\alpha} & \\text {Def} \\\\ \\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} & \\text {Chain rule} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            815,
+            562,
+            937
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "10 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            264,
+            160
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Proof. Let d be any feasible direction at $\\scriptstyle { \\pmb { x } } ^ { * }$",
+        "bbox": [
+            41,
+            192,
+            516,
+            239
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Define $\\phi ( \\alpha ) = f \\left( \\boldsymbol { x } ^ { * } + \\alpha \\boldsymbol { d } \\right)$ ，then",
+        "bbox": [
+            64,
+            254,
+            419,
+            305
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r c l} f \\left(\\boldsymbol {x} ^ {*} + \\alpha \\boldsymbol {d}\\right) - f \\left(\\boldsymbol {x} ^ {*}\\right) & = & \\phi (\\alpha) - \\phi (0) = \\phi^ {\\prime} (0) \\alpha + o (\\alpha) \\\\ & = & \\langle \\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} \\rangle \\alpha + o (\\alpha) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            229,
+            337,
+            812,
+            470
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "If $\\scriptstyle { \\pmb { x } } ^ { * }$ is a local minimizer,",
+        "bbox": [
+            64,
+            505,
+            331,
+            552
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(\\text { i.e., } \\exists \\varepsilon , \\text { s.t. } f (\\boldsymbol {x}) \\geqslant f \\left(\\boldsymbol {x} ^ {*}\\right), \\forall \\boldsymbol {x} \\in \\Omega \\backslash \\left\\{\\boldsymbol {x} ^ {*} \\right\\} \\& \\| \\boldsymbol {x} - \\boldsymbol {x} ^ {*} \\| <   \\varepsilon\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            572,
+            699,
+            627
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "for suficiently small α (e.g. $\\| \\alpha \\pmb { d } \\| < \\varepsilon ) , f \\left( \\pmb { x } ^ { * } + \\alpha \\pmb { d } \\right) - f \\left( \\pmb { x } ^ { * } \\right) \\geqslant 0 ,$ , then",
+        "bbox": [
+            64,
+            635,
+            801,
+            690
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (0) = \\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} \\geqslant 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            721,
+            649,
+            776
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "FONC Two possibilities for a given feasible direction d.",
+        "bbox": [
+            41,
+            811,
+            644,
+            858
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\n$\\nabla f(x^{*}) \\cdot d &gt; 0$ then $f(x^{*} + \\alpha d) &gt; f(x^{*})$ for all sufficiently small $\\alpha &gt; 0$ $\\nabla f(x^{*}) \\cdot d = 0$. check second-order derivative\n</div>",
+        "bbox": [
+            88,
+            862,
+            743,
+            996
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "11 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            24,
+            50,
+            275,
+            109
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "⋆ Second Order Necessary Condition",
+        "text_level": 2,
+        "bbox": [
+            30,
+            141,
+            456,
+            188
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Theorem If $\\mathbf { \\boldsymbol { x } } ^ { * }$ is a local minimizer of $f$ over $\\Omega ,$ and there exists a feasible direction d at $\\scriptstyle { \\pmb { x } } ^ { * }$ s.t. $\\nabla f \\left( \\pmb { x } ^ { * } \\right) \\cdot \\pmb { d } = 0$ , then",
+        "bbox": [
+            39,
+            207,
+            977,
+            321
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {d} ^ {\\top} \\nabla^ {2} f (\\boldsymbol {x} ^ {*}) \\boldsymbol {d} \\geqslant 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            333,
+            620,
+            392
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Proof Consider $\\phi ( \\alpha ) = f \\left( \\boldsymbol { x } ^ { * } + \\alpha d \\right)$ and its Taylor series at $\\alpha = 0$",
+        "bbox": [
+            41,
+            419,
+            754,
+            470
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi (\\alpha) = \\phi (0) + \\phi^ {\\prime} (0) \\alpha + \\frac {1}{2} \\phi^ {\\prime \\prime} (0) \\alpha^ {2} + o \\left(\\alpha^ {2}\\right).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            486,
+            754,
+            580
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text { as } \\phi^ {\\prime} (0) = \\nabla f (\\boldsymbol {x} ^ {*}) \\cdot \\boldsymbol {d} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            592,
+            668,
+            647
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "So we have $\\begin{array} { r } { \\phi ( \\alpha ) - \\phi ( 0 ) = \\frac { 1 } { 2 } \\phi ^ { \\prime \\prime } ( 0 ) \\alpha ^ { 2 } + o \\left( \\alpha ^ { 2 } \\right) } \\end{array}$ . Written in terms f is $f \\left( \\pmb { x } ^ { * } + \\alpha \\pmb { d } \\right) - f \\left( \\pmb { x } ^ { * } \\right) =$ $\\begin{array} { r } { \\frac { \\alpha ^ { 2 } } { 2 } \\pmb { d } ^ { \\top } \\nabla ^ { 2 } f \\left( x ^ { * } \\right) \\pmb { d } + o \\left( \\alpha ^ { 2 } \\right) } \\end{array}$",
+        "bbox": [
+            64,
+            670,
+            977,
+            800
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "If $\\pmb { d } ^ { \\top } \\nabla ^ { 2 } f \\left( \\pmb { x } ^ { * } \\right) \\pmb { d } < 0$ , then for suficiently small $\\alpha$ (how small?)",
+        "bbox": [
+            64,
+            803,
+            710,
+            862
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "which contradicts that $x ^ { * }$ is a local minimizer.",
+        "bbox": [
+            61,
+            874,
+            540,
+            921
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "so, $\\pmb { d } ^ { \\top } \\nabla ^ { 2 } f \\left( \\pmb { x } ^ { * } \\right) \\pmb { d } \\geq 0 .$",
+        "bbox": [
+            64,
+            937,
+            302,
+            992
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "12 / 41",
+        "bbox": [
+            942,
+            945,
+            986,
+            992
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            24,
+            50,
+            273,
+            109
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Corollary $\\mathbf { x } ^ { \\ast }$ is an interior local minimizer of f. Then",
+        "bbox": [
+            17,
+            133,
+            459,
+            176
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "FONC $\\nabla f \\left( \\pmb { x } ^ { * } \\right) = 0$",
+        "bbox": [
+            37,
+            239,
+            227,
+            278
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "SONC d $\\Gamma \\nabla ^ { 2 } f \\left( \\pmb { x } ^ { * } \\right) d \\geqslant 0 .$ , $\\forall d \\in \\mathbb { R } ^ { n }$",
+        "bbox": [
+            37,
+            290,
+            370,
+            333
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Examples. 6.3 (p.86), 6.5 (p.89)",
+        "bbox": [
+            57,
+            345,
+            337,
+            388
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Necessary conditions are not suficient",
+        "bbox": [
+            57,
+            400,
+            375,
+            439
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/27fd0fa986d20f1c7d69e75160f2ec819776a27dd9fb878fba7985cbf690ced0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            172,
+            450,
+            397,
+            768
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x) = x ^ {3}, f ^ {\\prime} (x) = 3 x ^ {2}, f ^ {\\prime \\prime} (x) = 6 x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            800,
+            403,
+            835
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/24ca02abe6d6a0a1c4eb9ed4d2c3baa92bc0ba0ba3e3753ab972810f12c665dc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            437,
+            478,
+            637,
+            737
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (\\pmb {x}) = x _ {1} ^ {2} - x _ {2} ^ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            494,
+            768,
+            584,
+            800
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "0 is a saddle point $\\nabla f ( \\mathbf { 0 } ) = \\mathbf { 0 }$ but neither a local minimizer nor maximizer By SONC, 0 is not a local minimizer!",
+        "bbox": [
+            432,
+            800,
+            646,
+            882
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "13 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Condition",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            264,
+            160
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "⋆ Second Order Suficient Condition",
+        "text_level": 2,
+        "bbox": [
+            30,
+            188,
+            452,
+            239
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Th 6.3 (SOSC) $f \\in C ^ { 2 } ( \\Omega ) , x ^ { * } \\in \\Omega$ is an interior point.",
+        "bbox": [
+            41,
+            254,
+            626,
+            305
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Suppose that (1) $\\nabla f \\left( { { \\pmb x } ^ { * } } \\right) = { \\bf 0 } ; \\left( 2 \\right) \\nabla ^ { 2 } f \\left( { { \\pmb x } ^ { * } } \\right) \\succ 0 .$",
+        "bbox": [
+            64,
+            321,
+            580,
+            376
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Then $\\mathbf { \\boldsymbol { x } } ^ { * }$ is a strict local minimizer of $f .$",
+        "bbox": [
+            64,
+            388,
+            476,
+            439
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Pf. $\\nabla ^ { 2 } f \\left( x ^ { * } \\right) \\succ 0 \\Leftrightarrow \\lambda _ { \\operatorname* { m i n } } \\left( \\nabla ^ { 2 } f \\left( x ^ { * } \\right) \\right) > 0$",
+        "bbox": [
+            66,
+            450,
+            496,
+            509
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(Prove by diagonaligation of $\\nabla ^ { 2 } f ( \\mathbf { x } ^ { * } ) = Q ^ { \\top } \\wedge Q )$",
+        "bbox": [
+            66,
+            513,
+            584,
+            576
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "For a feasible direction $\\mathbf { \\nabla } d \\neq 0$ , define $\\phi ( \\alpha ) = f \\left( \\boldsymbol { x } ^ { * } + \\alpha \\boldsymbol { d } \\right)$",
+        "bbox": [
+            66,
+            584,
+            653,
+            639
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & f (\\boldsymbol {x} ^ {*} + \\alpha \\boldsymbol {d}) - f (\\boldsymbol {x} ^ {*}) = \\phi (\\alpha) - \\phi (0) = \\frac {1}{2} \\phi^ {\\prime \\prime} (0) \\alpha^ {2} + o (\\alpha^ {2}) \\\\ & \\qquad = \\frac {1}{2} \\boldsymbol {d} ^ {\\top} \\nabla^ {2} f (\\boldsymbol {x} ^ {*}) \\boldsymbol {d} \\alpha^ {2} + o (\\alpha^ {2}) \\\\ & \\qquad \\geqslant \\frac {1}{2} \\lambda_ {\\min} \\| d \\| ^ {2} \\alpha^ {2} + o (\\alpha^ {2}) > 0 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            639,
+            666,
+            933
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "if α is suficiently small.",
+        "bbox": [
+            66,
+            925,
+            311,
+            972
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "14 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/28fb2b512ad8a95c497cf92b13ba9fb4ce37f050dd2490e86f881f8e83c35234.jpg",
+        "image_caption": [
+            "Topic 2: Condition"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            15,
+            243,
+            966,
+            807
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "15 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "习题",
+        "text_level": 2,
+        "bbox": [
+            15,
+            101,
+            83,
+            160
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "6.1Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            46,
+            247,
+            362,
+            301
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            377,
+            345,
+            600,
+            474
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in { \\mathcal { C } } ^ { 2 }$ . For each of the following specifications for $\\Omega , { \\pmb x } ^ { * }$ , and $f ,$ , determine if the given point ${ \\pmb x } ^ { * }$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer.",
+        "bbox": [
+            46,
+            509,
+            931,
+            682
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "a. $\\begin{array} { r l } & { f : \\mathbb { R } ^ { 2 } \\to \\mathbb { R } , \\Omega = \\{ \\mathbf { x } = [ x _ { 1 } , x _ { 2 } ] ^ { \\top } : x _ { 1 } \\geq 1 \\} , \\alpha ^ { * } = [ 1 , 2 ] ^ { \\top } } \\\\ & { \\nabla f ( \\mathbf { x } ^ { * } ) = [ 1 , 1 ] ^ { \\top } . } \\end{array}$ , and gradient",
+        "bbox": [
+            61,
+            709,
+            931,
+            831
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "footer",
+        "text": "一定不是",
+        "bbox": [
+            17,
+            905,
+            121,
+            956
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "16 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "习题",
+        "text_level": 2,
+        "bbox": [
+            15,
+            101,
+            83,
+            160
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.1Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            46,
+            247,
+            362,
+            301
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            377,
+            345,
+            600,
+            474
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in { \\mathcal { C } } ^ { 2 }$ . For each of the following specifications for $\\Omega , { \\pmb x } ^ { * }$ , and $f ,$ , determine if the given point ${ \\pmb x } ^ { * }$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer.",
+        "bbox": [
+            46,
+            509,
+            931,
+            682
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "a. $\\begin{array} { r l } & { f : \\mathbb { R } ^ { 2 } \\to \\mathbb { R } , \\Omega = \\{ \\mathbf { x } = [ x _ { 1 } , x _ { 2 } ] ^ { \\top } : x _ { 1 } \\geq 1 \\} , \\alpha ^ { * } = [ 1 , 2 ] ^ { \\top } } \\\\ & { \\nabla f ( \\mathbf { x } ^ { * } ) = [ 1 , 1 ] ^ { \\top } . } \\end{array}$ , and gradient",
+        "bbox": [
+            61,
+            709,
+            931,
+            831
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "一定不是",
+        "text_level": 2,
+        "bbox": [
+            17,
+            905,
+            121,
+            956
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "16 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "3. 几何直观",
+        "text_level": 2,
+        "bbox": [
+            282,
+            94,
+            359,
+            125
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/a1a131d2bbb455b28fe495467df1c5be0072b4012107c9f003ff5752694bcb45.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            324,
+            172,
+            719,
+            705
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "• 绿色箭头：梯度方向，函数值上升最快",
+        "bbox": [
+            293,
+            760,
+            540,
+            792
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "• 红色箭头：可行的下降方向，函数值减小。",
+        "bbox": [
+            291,
+            796,
+            554,
+            827
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "• 蓝色直线：约束边界 $x _ { 1 } = 1 ,$",
+        "bbox": [
+            293,
+            835,
+            485,
+            866
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "17 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            540,
+            109
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/25eebf634e77589ddf2b4d2b753b90c50668f132902f51afbd6f7cd20ec38dcb.jpg",
+        "image_caption": [
+            "Figure 7.1 Unimodal function."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            222,
+            156,
+            520,
+            443
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.1 Introduction",
+        "bbox": [
+            17,
+            576,
+            145,
+            615
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.2 Golden Section Search",
+        "bbox": [
+            19,
+            627,
+            218,
+            662
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.3 Fibonacci Method",
+        "bbox": [
+            19,
+            674,
+            187,
+            713
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.4 Bisection Method",
+        "bbox": [
+            19,
+            721,
+            183,
+            760
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.5 Newton’s Method",
+        "bbox": [
+            19,
+            768,
+            185,
+            807
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.6 Secant Method",
+        "bbox": [
+            19,
+            815,
+            167,
+            854
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.7 Bracketing",
+        "bbox": [
+            19,
+            866,
+            134,
+            905
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.8 Line Search in Multidimensional Optimization",
+        "bbox": [
+            17,
+            913,
+            388,
+            952
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "18 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            992
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            540,
+            156
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "§2 单因素",
+        "text_level": 2,
+        "bbox": [
+            503,
+            258,
+            587,
+            290
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "我们知道，钢要用某种化学元素来加强其强度，太少不好，太多也不好，例如，碳太多了成为生铁，碳太少了成为熟铁，都不成钢材，每吨要加多少碳才能达到强度最高？假定从理论上算出)每吨在1000克到2000克之间，普通的方法是加1001克，1002克，……，做下去，做了一千次以后，才能发现最好的选择，这种方法称为均分法，做一千次实验既浪费时又浪费原材料，为了迅速找出最优方案，我们建议以下的“折迭纸条法”",
+        "bbox": [
+            22,
+            309,
+            1000,
+            392
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "请牢记一个数0.618",
+        "bbox": [
+            46,
+            411,
+            161,
+            443
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/38fffb161efc4b93a1ea1b96bdfc75858171f52c43c7310a61ae2274d45b340e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            465,
+            466,
+            622,
+            529
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "用一个有刻度的纸条表达1000\\~2000克，在这纸条长度的0.618的地方划一条线，在这条线所指示的刻度做一次实验，也就是按1618克做一次实验",
+        "bbox": [
+            46,
+            560,
+            838,
+            596
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/a47191db39bf5e32c3c6997919c348412598e2c33b73ecdad253dee3da4ed74c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            461,
+            615,
+            618,
+            666
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "然后把纸条对中迭起，前一线落在另一层上的地方，再划一条线，这条线在1382克处，再按1382克做一次实验",
+        "bbox": [
+            46,
+            690,
+            649,
+            721
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/f838c1b24c731fb5e9762677b4e4a6f9e8d730e04dce2c705965b664af65f529.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            461,
+            745,
+            620,
+            811
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "两次实验进行比较，如果1382克的好一些，我们在1618处把纸条的右边一段剪掉，得",
+        "bbox": [
+            46,
+            847,
+            516,
+            878
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/e889122c2a767ff5c87a4e0ece75f86f958b366a5cfabf85027e73cea2cf242e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            485,
+            901,
+            591,
+            968
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "19 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            543,
+            160
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/751ee6f7fc5c6eb676b61affc58108d0fba0a29d1632fee9008e1b3e7e6782d7.jpg",
+        "image_caption": [
+            "Figure 7.4 Finding value of ρ resulting in only one new evaluation of"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            105,
+            254,
+            988,
+            792
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "20 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            543,
+            160
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.3 Fibonacci Method",
+        "bbox": [
+            17,
+            188,
+            249,
+            235
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/d602b5cf40763441299d2082c12696cf67d50240c9a7085f96456ea28f93acc3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            112,
+            372,
+            988,
+            909
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "21 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/630c5bedc3c6038eb43f54f2b6568ffa9c21e105960e707730b03530fec5513c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            176,
+            341,
+            843,
+            980
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "7.4 Bisection Method",
+        "bbox": [
+            17,
+            188,
+            242,
+            235
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "bbox": [
+            11,
+            98,
+            543,
+            160
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "22 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Ch 8. Gradient Methods",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            456,
+            160
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "$\\nabla f ( x )$ is the direction of maximum rate of increase of f at x.",
+        "bbox": [
+            17,
+            180,
+            470,
+            215
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "$- \\nabla f ( x )$ is the direction of maximum rate of decrease of f at x.",
+        "bbox": [
+            19,
+            227,
+            487,
+            262
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Lemma: (Cauchy-Schwarz inequality) For a, $\\ b { b } \\in \\mathbb { R } ^ { n }$",
+        "bbox": [
+            17,
+            309,
+            403,
+            349
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {a} \\cdot \\boldsymbol {b} = (\\boldsymbol {a}, \\boldsymbol {b}) = \\sum_ {i = 1} ^ {n} a _ {i} b _ {i} \\leqslant \\left(\\sum_ {i = 1} ^ {n} a _ {i} ^ {2}\\right) ^ {\\frac {1}{2}} \\left(\\sum_ {i = 1} ^ {n} b _ {i} ^ {2}\\right) ^ {\\frac {1}{2}} = \\| \\boldsymbol {a} \\| \\cdot \\| \\boldsymbol {b} \\|\n$$",
+        "text_format": "latex",
+        "bbox": [
+            136,
+            372,
+            584,
+            478
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Pf: Consider",
+        "bbox": [
+            17,
+            541,
+            116,
+            576
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & y (t) = \\left(\\sum a _ {i} ^ {2}\\right) t ^ {2} + \\left(2 \\sum a _ {i} b _ {i}\\right) t + \\sum b _ {i} ^ {2} \\\\ & \\quad = \\sum_ {i = 1} ^ {n} \\left(a _ {i} ^ {2} t ^ {2} + 2 a _ {i} b _ {i} t + b _ {i} ^ {2}\\right) \\\\ & \\quad = \\sum (a _ {i} t + b _ {i}) ^ {2} \\geqslant 0 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            205,
+            564,
+            516,
+            780
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "$y ( t ) = 0$ if $a _ { i } t + b _ { i } = 0 ,$ , ∀i",
+        "bbox": [
+            17,
+            831,
+            220,
+            866
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{So} \\Delta = (2 \\Sigma a _ {i} b _ {i}) ^ {2} - 4 (\\Sigma a _ {i} ^ {2}) (\\Sigma b _ {i} ^ {2}) \\leqslant 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            909,
+            309,
+            956
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "23 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods",
+        "bbox": [
+            11,
+            98,
+            373,
+            160
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Apply to $( \\nabla f , d ) \\leqslant \\| \\nabla f \\| \\cdot \\| d \\| = \\| \\nabla f \\| { \\mathrm { ~ i f ~ } } \\| d \\| = 1$",
+        "bbox": [
+            15,
+            345,
+            547,
+            400
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Equality holds $\\begin{array} { r } { \\Leftrightarrow d = \\frac { \\nabla f } { \\| \\nabla f \\| } } \\end{array}$",
+        "bbox": [
+            15,
+            458,
+            302,
+            533
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Therefore $- \\nabla f ( { \\pmb x } )$ is the max-rate descending direction. When $\\nabla f ( { \\pmb x } ) \\neq { \\bf 0 }$ , for α suficiently small, $f ( { \\pmb x } - \\alpha \\nabla f ( { \\pmb x } ) ) < f ( { \\pmb x } )$",
+        "bbox": [
+            13,
+            584,
+            977,
+            705
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "24 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            370,
+            160
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Gradient Descent Algorithm:",
+        "bbox": [
+            17,
+            180,
+            233,
+            215
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Start from $\\mathbf { x } ^ { 0 }$ for $k = 0 , 1 , 2 , \\cdots$ till converge",
+        "bbox": [
+            15,
+            262,
+            355,
+            301
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {x} ^ {k + 1} = \\boldsymbol {x} ^ {k} - \\alpha_ {k} \\nabla f (\\boldsymbol {x} ^ {k})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            341,
+            209,
+            396
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Ideal condition: $\\left\\| \\nabla f \\left( { \\boldsymbol { x } } ^ { k } \\right) \\right\\| = 0$",
+        "bbox": [
+            17,
+            431,
+            260,
+            490
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Practical conditions:",
+        "bbox": [
+            17,
+            525,
+            172,
+            560
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "gradient condition $\\left\\| \\nabla f \\left( \\mathbf { x } ^ { k } \\right) \\right\\| < \\varepsilon$",
+        "bbox": [
+            17,
+            603,
+            278,
+            662
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "success objective condition $\\frac { \\left| f \\big ( x ^ { k + 1 } \\big ) - f \\big ( x ^ { k } \\big ) \\right| } { \\left| f \\big ( x ^ { k } \\big ) \\right| } < \\varepsilon$",
+        "bbox": [
+            15,
+            690,
+            368,
+            764
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "successive point diference $\\frac { \\left\\| \\mathbf { { x } } ^ { k + 1 } - \\mathbf { { x } } ^ { k } \\right\\| } { \\left\\| \\mathbf { { x } } ^ { k } \\right\\| } < \\varepsilon$",
+        "bbox": [
+            17,
+            800,
+            328,
+            870
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Replace denominator by max $\\left\\{ 1 , \\left| f \\left( \\pmb { x } ^ { k } \\right) \\right| \\right\\}$ or max $\\{ 1 , \\| \\pmb { x } ^ { k } \\| \\}$ to avoid division by tiny numbers",
+        "bbox": [
+            17,
+            905,
+            706,
+            960
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "25 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods Step size:",
+        "bbox": [
+            15,
+            50,
+            373,
+            184
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "1. Exact line search. Expensive and not worth",
+        "bbox": [
+            17,
+            243,
+            450,
+            290
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "2. Fixed estimate value.",
+        "bbox": [
+            15,
+            356,
+            245,
+            400
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "3. Line search (Ch. 7).",
+        "bbox": [
+            17,
+            462,
+            236,
+            509
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "具体地",
+        "bbox": [
+            17,
+            568,
+            92,
+            619
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "1. Exact or “best” for $\\phi _ { k } ( \\alpha ) = f \\left( x _ { k } - \\alpha \\nabla f \\left( x _ { k } \\right) \\right)$",
+        "bbox": [
+            17,
+            678,
+            487,
+            729
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {k} = \\underset {\\alpha \\geqslant 0} {\\arg \\min} \\phi_ {k} (\\alpha)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            788,
+            207,
+            862
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "This is called Steepest Descent method.",
+        "bbox": [
+            17,
+            909,
+            392,
+            952
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "26 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "梯度下降法的性质：相邻方向垂直",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            492,
+            109
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {k} = \\arg \\min _ {\\alpha \\geq 0} f (x _ {k} - \\alpha \\nabla f (x _ {k})).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            459,
+            152,
+            640,
+            192
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "令",
+        "bbox": [
+            289,
+            235,
+            309,
+            258
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi (\\alpha) = f (x _ {k} - \\alpha \\nabla f (x _ {k})).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            476,
+            301,
+            624,
+            329
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "由于 $\\alpha _ { k }$ 是内部极小点，所以",
+        "bbox": [
+            289,
+            368,
+            434,
+            400
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "利用链式法则",
+        "bbox": [
+            289,
+            509,
+            364,
+            533
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (\\alpha_ {k}) = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            516,
+            435,
+            584,
+            466
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (\\alpha) = - \\nabla f (x _ {k} - \\alpha \\nabla f (x _ {k})) ^ {T} \\nabla f (x _ {k}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            439,
+            572,
+            662,
+            603
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "代入 $\\alpha _ { k }$ ，得到",
+        "bbox": [
+            289,
+            647,
+            366,
+            670
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n- \\nabla f (x _ {k + 1}) ^ {T} \\nabla f (x _ {k}) = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            476,
+            709,
+            624,
+            741
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "因此",
+        "bbox": [
+            289,
+            784,
+            317,
+            807
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boxed {\\nabla f (x _ {k + 1}) ^ {T} \\nabla f (x _ {k}) = 0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            483,
+            847,
+            620,
+            890
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "27 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            373,
+            160
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "2. Based on properties of f, choose a fixed value",
+        "bbox": [
+            15,
+            188,
+            520,
+            239
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "small: converges slow",
+        "bbox": [
+            15,
+            309,
+            242,
+            356
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "large: may diverge faster",
+        "bbox": [
+            17,
+            427,
+            275,
+            478
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "convergence eficiency",
+        "bbox": [
+            17,
+            549,
+            247,
+            596
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "3. Several practical line search algorithms",
+        "bbox": [
+            17,
+            666,
+            445,
+            717
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "• Golden section • Newton’s method",
+        "bbox": [
+            19,
+            784,
+            399,
+            831
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "• Fibonacci • Secant method",
+        "bbox": [
+            19,
+            905,
+            322,
+            952
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "28 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "梯度下降法缺点",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            240,
+            113
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "chart",
+        "img_path": "images/89936537a36dbb2720b1b7e176aedc4566f5695c74c066002cb4a4d7291bb62d.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [
+            "we need $t = O ( 1 / \\epsilon )$ iterations to have $\\| \\nabla f ( x ^ { k } ) \\| \\leq \\epsilon$"
+        ],
+        "bbox": [
+            35,
+            141,
+            476,
+            701
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "29 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            992
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "作业",
+        "bbox": [
+            15,
+            50,
+            83,
+            109
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "编写一个完整的最速下降算法，",
+        "bbox": [
+            17,
+            250,
+            346,
+            301
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "1. 定义 f(x)",
+        "bbox": [
+            19,
+            368,
+            158,
+            419
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "2. 给出 $\\scriptstyle { \\pmb { x } } ^ { * }$ 的算法",
+        "bbox": [
+            17,
+            490,
+            216,
+            537
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "运行时，输入 f(x) 和 $\\scriptstyle { \\mathbf { { \\mathit { x } } } } _ { 0 }$",
+        "bbox": [
+            17,
+            607,
+            293,
+            658
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "输出 $\\mathbf { \\boldsymbol { x } } ^ { * }$",
+        "bbox": [
+            17,
+            729,
+            105,
+            776
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "30 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [
+            "Topic 4: Newton’s method"
+        ],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nConsider  $\\min_{x\\in\\mathbb{R}^{n}}f(x)$ $\\cdot n=1$ $x_{k+1}=x_{k}-\\left(f''(x_{k})\\right)^{-1}f'(x_{k})$ $\\cdot n&gt;1$ $x_{k+1}=x_{k}-\\left(\\nabla^{2}f(x_{k})\\right)^{-1}\\nabla f(x_{k})$ \n\nAnother form ① solve  $\\nabla^{2}f(x_{k})d_{k}=-\\nabla f(x_{k})$ \n② update  $x_{k+1}=x_{k}+d_{k}$ \n\nRemark. Do not require  $\\nabla^{2}f(x_{k})&gt;0$  only needs non-singular (invertible).\nNamely, Newton's method also works for non-convex optimization problems.\nbut may not find local min.\n</div>",
+        "bbox": [
+            77,
+            203,
+            931,
+            972
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "31 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "bbox": [
+            11,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Pro. 1. Convergences super-fast (quadratic rate).",
+        "bbox": [
+            37,
+            262,
+            830,
+            376
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2. Affine invariant.",
+        "bbox": [
+            134,
+            388,
+            445,
+            490
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "con. 1. Local convergence. Reguive Il xo-x\\*1l is small enough",
+        "bbox": [
+            39,
+            525,
+            966,
+            639
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2. Computational cost. Form Hessian matzix O(n2). Compute (2f)-′: O(n³)",
+        "bbox": [
+            136,
+            650,
+            977,
+            854
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "32 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "chart",
+        "img_path": "images/b5550ef8e16e90c99225e0cb0a60eaad297d516377814e58ab956f5a3dc65288.jpg",
+        "content": "",
+        "chart_caption": [
+            "Topic 4: Newton’s method"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            83,
+            188,
+            532,
+            800
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "chart",
+        "img_path": "images/da00e8a88d3a88352d20541e1eb6ee9bb6258ab76a4601f67e40de1a3752b30c.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 12.3 The solid line in the left plot is $f ( x ) = ( e ^ { x } - e ^ { - x } ) / ( e ^ { x } + e ^ { - x } )$ The dashed line and the circles indicate the iterates in Newton's method for solving $f ( x ) = 0 .$ starting at ${ \\boldsymbol x } ^ { ( 0 ) } = ( 0 . 8 5 )$ (left) and $x ^ { ( 0 ) } = \\mathrm { ( 1 . 1 5 ) ( r i g h t ) }$ . In"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            536,
+            192,
+            933,
+            796
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "33 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "bbox": [
+            11,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Derivation, Given current approximate xk, approximates f by its quadratic Taylor series",
+        "bbox": [
+            19,
+            243,
+            916,
+            419
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x) \\approx f _ {g} (x; x _ {k}) := f (x _ {k}) + (\\nabla f (x _ {k}), x - x _ {k}) + \\frac {1}{2} (\\nabla^ {2} f (x _ {k}) (x - x _ {k}), x - x _ {k})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            75,
+            419,
+            935,
+            517
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} {\\underset {x \\in \\mathbb {R} ^ {n}} {\\min} f (x)} & {\\longrightarrow \\underset {x \\in \\mathbb {R} ^ {n}} {\\min} f _ {\\mathfrak {g}} (x; x _ {k}) \\longrightarrow \\nabla f _ {\\mathfrak {g}} (x _ {k + 1}; x _ {k}) = 0.} \\\\ & {\\quad \\downarrow} \\\\ {\\nabla f _ {\\mathfrak {g}} (x; x _ {k}) = \\nabla f (x _ {k}) + \\nabla^ {2} f (x _ {k}) (x - x _ {k})} & {\\mathrm {Newton^ {\\prime} s method}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            44,
+            596,
+            838,
+            858
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "34 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/d449e483dee1765c2fb5eb4a7d544db6a3551d09e95318d34f68db8edd09a257.jpg",
+        "image_caption": [
+            "Topic 4: Newton’s method"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            139,
+            207,
+            827,
+            937
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "35 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "bbox": [
+            11,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Convergence Analysis.",
+        "text_level": 2,
+        "bbox": [
+            39,
+            223,
+            381,
+            321
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Theorem. Suppose f∈ C³. x\\* is a critical pt, i.e. ∇f(x\\*) = 0, and f(x\\* is invertible. Then for all xo sufficiently close to x\\*, Newton's method is well defined for allk, and 11k+1-x\\*11 ≤C∥|xk-x\\*112 ∀k=0.1,2,. Proof, Denote by F(x) = ∇2f(x). Then det F(x) ∈C¹. As clet F(x\\*) =0, for sufficiently small ε, detF(x) キ0, ∀llx-x\\*∥1<ε. So F(x) is invertible",
+        "bbox": [
+            28,
+            360,
+            975,
+            886
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "36 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nFurthermore $\\| F^{-1}(x) \\| \\leqslant c$, $\\forall \\| x - x^* \\| &lt; \\varepsilon$.\n\nAssume $x_k$ satisfies $\\| x_k - x^* \\| &lt; \\varepsilon$, then $F^{-1}(x_k)$ exists and $\\| F^{-1}(x_k) \\| \\leqslant c$.\n\nThen $x_{k+1} - x^* = x_k - x^* - (\\nabla^2 f(x_k))^{-1} \\nabla f(x_k)$ $= (\\nabla^2 f(x_k))^{-1} [\\nabla^2 f(x_k)(x_k - x^*) - \\nabla f(x_k)]$.\n\nWe apply first order Taylor expansion to $\\nabla f(x^*)$ at $x_k$ to get\n\n$\\nabla f(x^*) = \\nabla f(x_k) + \\nabla^2 f(x_k)(x^* - x_k) + O(\\| x_k - x^* \\|^2)$\n\nNote that $\\nabla f(x^*) = 0$ and the sign change, we have\n\n$\\nabla^2 f(x_k)(x_k - x^*) - \\nabla f(x_k) = O(\\| x_k - x^* \\|^2)$.\n\nTherefore $\\| x_{k+1} - x^* \\| \\leqslant C\\|\\left(\\nabla^2 f(x_k)\\right)^{-1} \\| \\| x_k - x^* \\|^2$ $\\leqslant C_1 \\| x_k - x^* \\|^2$\n</div>",
+        "bbox": [
+            30,
+            184,
+            624,
+            901
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            366,
+            160
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "page_number",
+        "text": "37 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "bbox": [
+            11,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} \\text { Again   by   choosing } \\varepsilon \\text { sufficiently   small   s.t. } C _ {1} \\varepsilon^ {2} <   \\varepsilon , \\text { we   conclude } \\\\ \\| x _ {k + 1} - x ^ {*} \\| <   \\varepsilon \\text { and } F (x _ {k + 1}) ^ {- 1} \\text { exists   and } \\| F (x _ {k + 1}) ^ {- 1} \\| \\leqslant C. \\\\ \\text { So   if } \\varepsilon \\text { is   small   enough   and } \\| x _ {0} - x ^ {*} \\| <   \\varepsilon , \\text { all } \\| x _ {k} - x ^ {*} \\| <   \\varepsilon \\text { and } \\\\ \\| x _ {k + 1} - x ^ {*} \\| \\leqslant C, \\| x _ {k} - x ^ {*} \\| ^ {2} \\quad \\forall k = 0, 1, 2, \\dots \\\\ \\text { which   implies   the   local   quadratic   convergence. } \\quad \\#. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            19,
+            239,
+            902,
+            858
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "38 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "text_level": 2,
+        "bbox": [
+            13,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Modification of Newton's method.",
+        "text_level": 2,
+        "bbox": [
+            41,
+            180,
+            523,
+            278
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nNewton's method may not be a descent method, i.e. $f(x_{k+1}) &gt; f(x_k)$ is possible (e.g. $x^*$ is a local maximum). Have to restrict to strictly convex functions.\n\nLemma. Assume $\\nabla^2 f(x) &gt; 0, \\forall x$. If $\\nabla f(x_k) \\neq 0$, then Newton's direction $d_k = -(\\nabla^2 f(x_k))^{-1} \\nabla f(x_k)$ is a descent direction in the sense that $f(x_k + 2d_k) &lt; f(x_k)$ for sufficiently small $\\alpha$.\n</div>",
+        "bbox": [
+            37,
+            290,
+            969,
+            768
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Proof,Let ∅(2) =f(xk+2dk). Then φ(2) = (∇f(x+2dk), dk) and",
+        "bbox": [
+            41,
+            784,
+            860,
+            870
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (0) = - (\\nabla f (x _ {k}), (\\nabla^ {2} f (x _ {k})) ^ {- 1} \\nabla f (x _ {k})) = - (g _ {k}, g _ {k}) a <   0 \\quad \\text { where }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            61,
+            886,
+            783,
+            972
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "39 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            996
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            366,
+            160
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "For convex functions, we can use the following modification 1. Compute de $b y$ solving $v ^ { 2 } f ( x _ { k } ) d k = - \\sqrt { f } ( x _ { k } )$ 2. Find $\\alpha _ { k } = \\Delta r g \\min f ( x _ { k } + \\alpha d k )$ $b y$ line search. $U p d a t e$ $x _ { k + 1 } = x _ { k } + \\alpha _ { k } d _ { k }$",
+        "bbox": [
+            35,
+            203,
+            624,
+            498
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "chart",
+        "img_path": "images/ef00facb0e4a8df4df22bbf4186ced970739c481530e3aa61458c300be9844d0.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            119,
+            564,
+            342,
+            870
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f3f0a84d1424f9d2f4ae990732d56087ac8444d657dcf940db7f4b801f6dfbe9.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 12.3 The solid line in the left plot is $f ( x ) = ( e ^ { x } - e ^ { - x } ) / ( e ^ { x } + e ^ { - x } )$ The dashed line and the circles indicate the iterates in Newton's method for solving f(x) = 0. starting at $ \\boldsymbol { x } ^ { ( 0 ) } = \\left( 0 . 8 5 \\right)$ (left) and $x ^ { ( 0 ) } = \\stackrel { \\left( 1 . 1 5 \\right) } { \\underbrace { \\big ( 1 . 1 5 \\big ) } }$ (right). In"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            339,
+            564,
+            540,
+            870
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "40 / 41",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Topic 4: Newton’s method",
+        "text_level": 2,
+        "bbox": [
+            13,
+            98,
+            368,
+            164
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nWhat if  $\\nabla^{2}f$  is not SPD? Note that for non-convex functions, the gradient method  $x_{k+1}=x_{k}-\\alpha_{k}I\\nabla f(x_{k})$  is always a descent method. This motivates the Levenberg-Marquardt modification\n</div>",
+        "bbox": [
+            41,
+            200,
+            973,
+            470
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {k + 1} = x _ {k} - \\alpha_ {k} (\\nabla^ {2} f (x _ {k}) + \\mu_ {k} I) ^ {- 1} \\nabla f (x _ {k}),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            249,
+            482,
+            726,
+            564
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "where μn>0 is chosen s.t. f(xn) + MRI > 0 and dk >0 is a step size",
+        "bbox": [
+            41,
+            596,
+            894,
+            678
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "It is a mixture of Newton and gradient methods:",
+        "bbox": [
+            46,
+            725,
+            637,
+            815
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "μk=0. Newton's method.",
+        "bbox": [
+            48,
+            827,
+            366,
+            894
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "μk→+o0. Gradient method.",
+        "bbox": [
+            46,
+            913,
+            417,
+            984
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "41 / 41",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 42
+    }
+]

@@ -1,0 +1,8 @@
+.env
+site/
+.wrangler/
+resources/mineru/*
+!resources/mineru/lecture-*_full/
+resources/mineru/lecture-*_full/*
+!resources/mineru/lecture-*_full/*_content_list.json
+resources/mineru/lecture-*_full/images/

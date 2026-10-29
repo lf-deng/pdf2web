@@ -1,0 +1,4414 @@
+[
+    {
+        "type": "text",
+        "text": "高级工程数学",
+        "bbox": [
+            401,
+            231,
+            596,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2026-10-06",
+        "text_level": 2,
+        "bbox": [
+            423,
+            325,
+            573,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "沈超敏",
+        "bbox": [
+            459,
+            474,
+            538,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "计算机科学与技术学院",
+        "bbox": [
+            375,
+            549,
+            622,
+            603
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "cmshen@cs.ecnu.edu.cn",
+        "bbox": [
+            377,
+            623,
+            620,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "文附楼 105",
+        "bbox": [
+            437,
+            729,
+            560,
+            780
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1 / 49",
+        "bbox": [
+            951,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本次内容",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            147,
+            113
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 / 49",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "复习",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            81,
+            113
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ch. 3. Transformations   \n3.1 Linear Transformations   \n3.2 Eigenvalues and Eigenvectors   \n3.3 Orthogonal Projections   \n3.4 Quadratic Forms   \n3.5 Matrix Norms Exercises",
+        "bbox": [
+            17,
+            152,
+            353,
+            929
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 / 49",
+        "bbox": [
+            951,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "上次课例题",
+        "text_level": 2,
+        "bbox": [
+            17,
+            50,
+            178,
+            109
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "习题3.5 对 $A = \\begin{bmatrix} -1 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\\\ 2 & 5 & 2 & 1 \\\\ -1 & 1 & 0 & 3 \\end{bmatrix}$ 给出的linear transform, 找一组基, 使在这组基下A对应的矩阵是对角阵.",
+        "bbox": [
+            15,
+            109,
+            788,
+            368
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "解: 该题意思是: A 代表一个变换, 将 x 变成 y, 即 Ax = y (这里 A 就是变换对应的矩阵, A, x, y, 均在自然基下表示).",
+        "bbox": [
+            15,
+            419,
+            788,
+            517
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "该题问，如果换了一组基，在新基下 A 对应的矩阵如记成 B，要使 B 是对角阵，基应如何取法.",
+        "bbox": [
+            15,
+            564,
+            788,
+            666
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "claim: 新基就是 A 的特征向量 $\\left\\{v_{1}, v_{2}, v_{3}, \\ldots, v_{n}\\right\\}$ (如果他们构成基), B 就是 A 的特征值构成的 $\\left[\\begin{array}{ccc} & \\lambda_{1} & \\\\ & \\ddots & \\\\ & & \\lambda_{n} \\end{array}\\right]$ .",
+        "bbox": [
+            15,
+            705,
+            788,
+            945
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 / 49",
+        "bbox": [
+            951,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "理由: x 在 $\\{e_{1},\\cdots,e_{n}\\}$ 下的坐标是 $\\begin{bmatrix}x_{1}\\\\ \\vdots\\\\ x_{n}\\end{bmatrix}$ ，在 $\\{v_{1},\\cdots,v_{n}\\}$ 下坐标 $\\begin{bmatrix}a_{1}\\\\ \\vdots\\\\ a_{n}\\end{bmatrix}$ .\ny 在 $\\{e_{1},\\cdots,e_{n}\\}$ 下的坐标是 $\\begin{bmatrix}y_{1}\\\\ \\vdots\\\\ y_{n}\\end{bmatrix}$ ，在 $\\{v_{1},\\cdots,v_{n}\\}$ 下坐标 $\\begin{bmatrix}b_{1}\\\\ \\vdots\\\\ b_{n}\\end{bmatrix}$ .\n则 $\\left\\{e_{1},\\cdots,e_{n}\\right\\}\\left[\\begin{array}{c}x_{1}\\\\ \\vdots\\\\ x_{n}\\end{array}\\right]=\\left\\{v_{1},\\cdots,v_{n}\\right\\}\\left[\\begin{array}{c}a_{1}\\\\ \\vdots\\\\ a_{n}\\end{array}\\right]\\Longrightarrow V\\left[\\begin{array}{c}a_{1}\\\\ \\vdots\\\\ a_{n}\\end{array}\\right].(1)$ $\\left\\{e_{1},\\cdots,e_{n}\\right\\}\\left[\\begin{bmatrix}y_{1}\\\\ \\vdots\\\\ y_{n}\\end{bmatrix}\\right]=V\\left[\\begin{bmatrix}b_{1}\\\\ \\vdots\\\\ b_{n}\\end{bmatrix}\\right]$ (2)",
+        "bbox": [
+            15,
+            0,
+            750,
+            800
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "对 (1) 两端左乘 $\\vec{A}$ , 得",
+        "bbox": [
+            17,
+            788,
+            242,
+            831
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {A} \\left[ \\begin{array}{c} x _ {1} \\\\ \\vdots \\\\ \\ddots \\end{array} \\right] = \\boldsymbol {A} \\boldsymbol {V} \\left[ \\begin{array}{c} a _ {1} \\\\ \\vdots \\\\ \\ddots \\end{array} \\right] = \\boldsymbol {V} \\left[ \\begin{array}{c c c c} & \\lambda_ {1} & & \\\\ & \\ddots & & \\\\ & & \\lambda \\end{array} \\right] \\left[ \\begin{array}{c} a _ {1} \\\\ \\vdots \\\\ \\ddots \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            19,
+            831,
+            551,
+            1000
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 / 49",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "而 $A\\left[\\begin{array}{c}x_{1}\\\\ \\vdots\\\\ x_{n}\\end{array}\\right]=y=V\\left[\\begin{array}{c}b_{1}\\\\ \\vdots\\\\ b_{n}\\end{array}\\right]$ (由（2）式可得).",
+        "bbox": [
+            15,
+            94,
+            520,
+            317
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "所以，",
+        "bbox": [
+            17,
+            392,
+            83,
+            450
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {V} \\left[ \\begin{array}{c c c} & \\lambda_ {1} & \\\\ & \\ddots & \\\\ & & \\lambda_ {n} \\end{array} \\right] \\left[ \\begin{array}{c} a _ {1} \\\\ \\vdots \\\\ a _ {n} \\end{array} \\right] = \\boldsymbol {V} \\left[ \\begin{array}{c} b _ {1} \\\\ \\vdots \\\\ b _ {n} \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            92,
+            313,
+            507,
+            529
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{c c c c} & \\lambda_ {1} & & \\\\ & \\ddots & \\\\ & & \\lambda_ {n} \\end{array} \\right] \\left[ \\begin{array}{c} a _ {1} \\\\ \\vdots \\\\ a _ {n} \\end{array} \\right] = \\left[ \\begin{array}{c} b _ {1} \\\\ \\vdots \\\\ b _ {n} \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            22,
+            525,
+            384,
+            745
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "所以在 V 下, A 对应的 B 是对角阵.",
+        "bbox": [
+            17,
+            741,
+            408,
+            796
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 / 49",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "上次补充例题",
+        "text_level": 2,
+        "bbox": [
+            13,
+            47,
+            211,
+            113
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\overrightarrow{x}$ , 经正交变换 $(Q^T Q = I)$ , 变成 $\\overrightarrow{y}$ ,",
+        "bbox": [
+            116,
+            266,
+            878,
+            423
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "间 $\\overrightarrow{y}$ 的长度和 $\\overrightarrow{x}$ 的长度的关系.",
+        "bbox": [
+            75,
+            415,
+            732,
+            596
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "非：看 $\\overrightarrow{y} = Q\\overrightarrow{x}$ 的长度可通过内积",
+        "bbox": [
+            61,
+            596,
+            849,
+            776
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\langle Q\\overrightarrow{x},Q\\overrightarrow{x}\\rangle=(Q\\overrightarrow{x})^{T}Q\\overrightarrow{x}=\\overrightarrow{x}^{T}Q^{T}Q\\overrightarrow{x}$",
+        "bbox": [
+            108,
+            807,
+            1000,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.4 Quadratic Forms",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            286,
+            109
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "A quadratic form $f:\\mathbb{R}^{n}\\to\\mathbb{R}$ is a function",
+        "bbox": [
+            17,
+            184,
+            456,
+            235
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (\\boldsymbol {x}) = \\boldsymbol {x} ^ {\\top} Q \\boldsymbol {x},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            417,
+            286,
+            578,
+            345
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "where Q is an $n \\times n$ real matrix.",
+        "bbox": [
+            15,
+            403,
+            355,
+            450
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "假设 Q 是对称的.",
+        "bbox": [
+            17,
+            521,
+            209,
+            572
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "称 quadratic form $x^{\\top}Qx$ 是 positive definite, if $x^{\\top}Qx > 0$ for all nonzero x. Semidefinite if $x^{\\top}Qx \\geq 0$ for all nonzero x.",
+        "bbox": [
+            15,
+            635,
+            980,
+            756
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Negative definite, negative semidefinite.",
+        "bbox": [
+            17,
+            827,
+            423,
+            878
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 / 49",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.5 Matrix Norms",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            249,
+            105
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Using arguments similar to the above, we can deduce the following important inequalities.",
+        "bbox": [
+            139,
+            172,
+            865,
+            262
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Rayleigh's Inequalities. If an $n \\times n$ matrix $P$ is real symmetric positive definite, then",
+        "bbox": [
+            139,
+            286,
+            865,
+            376
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lambda_ {\\min} (\\boldsymbol {P}) \\| \\boldsymbol {x} \\| ^ {2} \\leq \\boldsymbol {x} ^ {\\top} \\boldsymbol {P} \\boldsymbol {x} \\leq \\lambda_ {\\max} (\\boldsymbol {P}) \\| \\boldsymbol {x} \\| ^ {2},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            311,
+            372,
+            693,
+            423
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "where $\\lambda_{\\min}(\\boldsymbol{P})$ denotes the smallest eigenvalue of P, and $\\lambda_{\\max}(\\boldsymbol{P})$ denotes the largest eigenvalue of P.",
+        "bbox": [
+            136,
+            443,
+            865,
+            537
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 / 49",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Concepts from Geometry\n4.1 Line Segments\n4.2 Hyperplanes and Linear Varieties\n4.3 Convex Sets\n4.4 Neighborhoods\n4.5 Polytopes and Polyhedra",
+        "bbox": [
+            15,
+            50,
+            390,
+            784
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "第四章内容总结",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            242,
+            113
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "超平面是 n-1 维的, 因为 $x_{1}, \\cdots, x_{n}$ 是 n 维的, 超平面给了一个限制条件, 所以有 n-1 个自由度.",
+        "bbox": [
+            15,
+            137,
+            918,
+            250
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "超平面法线的理解：法线先记作 $n$ (normal 的意思), normal 应满足同超平面内任意向量垂直, 那如何表示超平面内任何向量呢？超平面内找一个已知点 $a$ , 再找任意点 $x$ , 则 $x - a$ 可代表超平面内任意向量, slide 中已证 $\\langle u, a - x \\rangle = 0$ , 所以 $u$ 即所求的法线.",
+        "bbox": [
+            15,
+            309,
+            920,
+            490
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "超平面的交的理解方法, 方程每一个都可写成 $a_1 1x_1 + \\ldots + a_n x_n = b_1$ , 每一个都是超平面, 所以解是超平面的交. 那么有几个超平面呢? 并不是有几个方程就是几个超平面, 因为有重复的",
+        "bbox": [
+            15,
+            549,
+            920,
+            721
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "凸集概念在后面带限制条件的优化问题要用到, 直观上说, 优化迭代时, $x_{1}$ 跳到 $x_{2}, x_{2}$ 跳到 $x_{3}$ , 我至少要保证点都在规定的集合中. 跳的时候还有跳多远 (步长) 的事, 如果两点间所有的点都在集合中, 可以根据需要, 有时跳近点.",
+        "bbox": [
+            15,
+            780,
+            920,
+            960
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "今天: Elements of Calculus\n5.1 Sequences and Limits\n5.2 Differentiability\n5.3 The Derivative Matrix\n5.4 Differentiation Rules\n5.5 Level Sets and Gradients\n5.6 Taylor Series",
+        "bbox": [
+            17,
+            43,
+            935,
+            866
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits ( $R^{1}$ )",
+        "text_level": 2,
+        "bbox": [
+            11,
+            47,
+            439,
+            113
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A sequence of real numbers is a function whose domain is the set of natural numbers $1,2,\\ldots,k,\\ldots$ and whose range is contained in R. Thus, a sequence of real numbers can be viewed as a set of numbers $\\{x_{1},x_{2},\\ldots,x_{k},\\ldots\\}$ , which is often also denoted as $\\{x_{k}\\}$ (or sometimes as $\\{x_{k}\\}_{k=1}^{\\infty}$ , to indicate explicitly the range of values that k can take).",
+        "bbox": [
+            81,
+            141,
+            905,
+            396
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A sequence $\\{x_{k}\\}$ is increasing if $x_{1}<x_{2}<\\cdots<x_{k}\\cdots$ ; that is, $x_{k}<x_{k+1}$ for all k. If $x_{k}\\leq x_{k+1}$ , then we say that the sequence is nondecreasing. Similarly, we can define decreasing and nonincreasing sequences. Nonincreasing or nondecreasing sequences are called monotone sequences.",
+        "bbox": [
+            83,
+            400,
+            902,
+            603
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A number $x^{*} \\in R$ is called the limit of the sequence $\\{x_{k}\\}$ if for any positive $\\varepsilon$ there is a number K (which may depend on $\\varepsilon$ ) such that for all k > K, $|x_{k} - x^{*}| < \\varepsilon$ ; that is, $x_{k}$ lies between $x^{*} - \\varepsilon$ and $x^{*} + \\varepsilon$ for all k > K. In this case we write",
+        "bbox": [
+            83,
+            603,
+            905,
+            807
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx ^ {*} = \\lim _ {k \\rightarrow \\infty} x _ {k}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            419,
+            807,
+            567,
+            882
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "or",
+        "bbox": [
+            86,
+            886,
+            116,
+            921
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {k} \\rightarrow x ^ {*}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            929,
+            547,
+            980
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits ( $R^{n}$ )",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            417,
+            113
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "The notion of a sequence can be extended to sequences with elements in $\\mathbb{R}^n$ . Specifically, a sequence in $\\mathbb{R}^n$ is a function whose domain is the set of natural numbers $1,2,\\ldots,k,\\ldots$ and whose range is contained in $\\mathbb{R}^n$ . We use the notation $\\{\\pmb{x}^{(1)},\\pmb{x}^{(2)},\\dots\\}$ or $\\{\\pmb{x}^{(k)}\\}$ for sequences in $\\mathbb{R}^n$ . For limits of sequences in $\\mathbb{R}^n$ , we need to replace absolute values with vector norms. In other words, $\\pmb{x}^*$ is the limit of $\\{\\pmb{x}^{(k)}\\}$ if for any positive $\\varepsilon$ there is a number $K$ (which may depend on $\\varepsilon$ ) such that for all $k > K$ , $\\| \\pmb{x}^{(k)} - \\pmb{x}^* \\| < \\varepsilon$ . As before, if a sequence $\\{\\pmb{x}^{(k)}\\}$ is convergent, we write $\\pmb{x}^* = \\lim_{k\\to \\infty}\\pmb{x}^{(k)}$ or $\\pmb{x}^{(k)}\\to \\pmb{x}^*$ .",
+        "bbox": [
+            39,
+            278,
+            949,
+            737
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits (唯一性)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            474,
+            113
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.1 A convergent sequence has only one limit.",
+        "bbox": [
+            28,
+            133,
+            426,
+            168
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Proof. We prove this result by contradiction. Suppose that a sequence $\\{\\pmb{x}^{(k)}\\}$ has two different limits, say $\\pmb{x}_1$ and $\\pmb{x}_2$ . Then, we have $\\| \\pmb{x}_1 - \\pmb{x}_2 \\| > 0$ . Let",
+        "bbox": [
+            30,
+            192,
+            556,
+            262
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\varepsilon = \\frac {1}{2} \\| \\boldsymbol {x} _ {1} - \\boldsymbol {x} _ {2} \\|.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            282,
+            353,
+            349
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "From the definition of a limit, there exist $K_{1}$ and $K_{2}$ such that for $k > K_{1}$ we have $\\| \\pmb{x}^{(k)} - \\pmb{x}_1 \\| < \\varepsilon$ , and for $k > K_{2}$ we have $\\| \\pmb{x}^{(k)} - \\pmb{x}_2 \\| < \\varepsilon$ . Let $K = \\max \\{K_1, K_2\\}$ . Then, if $k > K$ , we have $\\| \\pmb{x}^{(k)} - \\pmb{x}_1 \\| < \\varepsilon$ and $\\| \\pmb{x}^{(k)} - \\pmb{x}_2 \\| < \\varepsilon$ . Adding $\\| \\pmb{x}^{(k)} - \\pmb{x}_1 \\| < \\varepsilon$ and $\\| \\pmb{x}^{(k)} - \\pmb{x}_2 \\| < \\varepsilon$ yields",
+        "bbox": [
+            30,
+            368,
+            556,
+            505
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {1} \\right\\| + \\left\\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {2} \\right\\| <   2 \\varepsilon .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            521,
+            403,
+            564
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Applying the triangle inequality gives",
+        "bbox": [
+            30,
+            588,
+            293,
+            627
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} \\| - \\boldsymbol {x} _ {1} + \\boldsymbol {x} _ {2} \\| & = \\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {1} - \\boldsymbol {x} ^ {(k)} + \\boldsymbol {x} _ {2} \\| \\\\ & = \\| (\\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {1}) - (\\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {2}) \\| \\\\ & \\leq \\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {1} \\| + \\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} _ {2} \\|. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            643,
+            443,
+            780
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Therefore,",
+        "bbox": [
+            30,
+            803,
+            105,
+            835
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\| - \\boldsymbol {x} _ {1} + \\boldsymbol {x} _ {2} \\| = \\| \\boldsymbol {x} _ {1} - \\boldsymbol {x} _ {2} \\| <   2 \\varepsilon .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            181,
+            835,
+            406,
+            870
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "However, this contradicts the assumption that $\\|x_{1}-x_{2}\\|=2\\varepsilon$ , which completes the proof.",
+        "bbox": [
+            28,
+            886,
+            558,
+            952
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 / 49",
+        "bbox": [
+            944,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits (有界性)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            496,
+            113
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "A sequence $\\{\\pmb{x}^{(k)}\\}$ in $\\mathbb{R}^n$ is bounded if there exists a number $B \\geq 0$ such that $\\| \\pmb{x}^{(k)} \\| \\leq B$ for all $k = 1,2,\\ldots$ .",
+        "bbox": [
+            30,
+            137,
+            593,
+            215
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.2 Every convergent sequence is bounded.",
+        "bbox": [
+            30,
+            239,
+            428,
+            274
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Proof. Let $\\{\\pmb{x}^{(k)}\\}$ be a convergent sequence with limit $\\pmb{x}^*$ . Choose $\\varepsilon = 1$ . Then, by definition of the limit, there exists a natural number $K$ such that for all $k > K$ ,",
+        "bbox": [
+            30,
+            301,
+            593,
+            411
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} ^ {*} \\right\\| <   1.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            249,
+            403,
+            377,
+            450
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "By the result of Exercise 2.9, we get",
+        "bbox": [
+            46,
+            521,
+            309,
+            556
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\| \\boldsymbol {x} ^ {(k)} \\| - \\| \\boldsymbol {x} ^ {*} \\| \\leq \\| \\boldsymbol {x} ^ {(k)} - \\boldsymbol {x} ^ {*} \\| <   1 \\quad \\text { for   all } k > K.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            580,
+            496,
+            623
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Therefore,",
+        "bbox": [
+            46,
+            647,
+            128,
+            682
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\| \\boldsymbol {x} ^ {(k)} \\| <   \\| \\boldsymbol {x} ^ {*} \\| + 1 \\quad \\text { for   all } k > K.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            198,
+            674,
+            445,
+            717
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Letting",
+        "bbox": [
+            46,
+            733,
+            108,
+            768
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nB = \\max \\left\\{\\| \\boldsymbol {x} ^ {(1)} \\|, \\| \\boldsymbol {x} ^ {(2)} \\|, \\dots , \\| \\boldsymbol {x} ^ {(K)} \\|, \\| \\boldsymbol {x} ^ {*} \\| + 1 \\right\\},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            760,
+            496,
+            819
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "we have",
+        "bbox": [
+            48,
+            831,
+            112,
+            862
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nB \\geq \\| \\boldsymbol {x} ^ {(k)} \\| \\quad \\text { for   all } k,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            858,
+            403,
+            901
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "which means that the sequence $\\{\\pmb{x}^{(k)}\\}$ is bounded.",
+        "bbox": [
+            48,
+            913,
+            410,
+            952
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits (上确界)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            47,
+            498,
+            113
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "For a sequence $\\{x_{k}\\}$ in R, a number B is called an upper bound if $x_{k} \\leq B$ for all $k = 1, 2, \\ldots$ . In this case, we say that $\\{x_{k}\\}$ is bounded above. Similarly, B is called a lower bound if $x_{k} \\geq B$ for all $k = 1, 2, \\ldots$ . In this case, we say that $\\{x_{k}\\}$ is bounded below. Clearly, a sequence is bounded if it is both bounded above and bounded below.",
+        "bbox": [
+            26,
+            152,
+            969,
+            447
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Any sequence $\\{x_{k}\\}$ in R that has an upper bound has a least upper bound (also called the supremum), which is the smallest number B that is an upper bound of $\\{x_{k}\\}$ . Similarly, any sequence $\\{x_{k}\\}$ in R that has a lower bound has a greatest lower bound (also called the infimum). If B is the least upper bound of the sequence $\\{x_{k}\\}$ , then $x_{k} \\leq B$ for all k, and for any $\\varepsilon > 0$ , there exists a number K such that $x_{K} > B - \\varepsilon$ . An analogous statement applies to the greatest lower bound: If B is the greatest lower bound of $\\{x_{k}\\}$ , then $x_{k} \\geq B$ for all k, and for any $\\varepsilon > 0$ , there exists a number K such that $x_{K} < B + \\varepsilon$ .",
+        "bbox": [
+            26,
+            450,
+            969,
+            921
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits （单调有界必收敛）",
+        "text_level": 2,
+        "bbox": [
+            11,
+            137,
+            624,
+            200
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.3 Every monotone bounded sequence in $\\mathbb{R}$ is convergent.",
+        "text_level": 2,
+        "bbox": [
+            46,
+            243,
+            704,
+            286
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Proof. We prove the theorem for nondecreasing sequences. The proof for nonincreasing sequences is analogous.",
+        "bbox": [
+            46,
+            321,
+            704,
+            400
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Let $\\{x_{k}\\}$ be a bounded nondecreasing sequence in $\\mathbb{R}$ and $x^{*}$ the least upper bound. Fix a number $\\varepsilon > 0$ . Then, there exists a number $K$ such that $x_{K} > x^{*} - \\varepsilon$ . Because $\\{x_{k}\\}$ is nondecreasing, for any $k \\geq K$ ,",
+        "bbox": [
+            46,
+            403,
+            704,
+            529
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {k} \\geq x _ {K} > x ^ {*} - \\varepsilon .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            560,
+            456,
+            603
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Also, because $x^{*}$ is an upper bound of $\\{x_{k}\\}$ , we have",
+        "bbox": [
+            46,
+            635,
+            505,
+            678
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {k} \\leq x ^ {*} <   x ^ {*} + \\varepsilon .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            713,
+            454,
+            752
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Therefore, for any $k \\geq K$ ,",
+        "bbox": [
+            46,
+            788,
+            273,
+            831
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left| x _ {k} - x ^ {*} \\right| <   \\varepsilon ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            831,
+            437,
+            874
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "which means that $x_{k} \\rightarrow x^{*}$ .",
+        "bbox": [
+            46,
+            890,
+            286,
+            933
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 / 49",
+        "bbox": [
+            944,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits （收敛序列的子序列必收敛）",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            750,
+            160
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.4 Consider a convergent sequence $\\{\\pmb{x}^{(k)}\\}$ with limit $\\pmb{x}^*$ . Then, any subsequence of $\\{\\pmb{x}^{(k)}\\}$ also converges to $\\pmb{x}^*$ .",
+        "bbox": [
+            30,
+            192,
+            693,
+            278
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Proof. Let $\\{\\pmb{x}^{(m_k)}\\}$ be a subsequence of $\\{\\pmb{x}^{(k)}\\}$ , where $\\{m_k\\}$ is an increasing sequence of natural numbers. Observe that $m_k \\geq k$ for all $k = 1,2,\\ldots$ . To show this, first note that $m_1 \\geq 1$ because $m_1$ is a natural number. Next, we proceed by induction by assuming that $m_k \\geq k$ . Then, we have $m_{k+1} > m_k \\geq k$ , which implies that $m_{k+1} \\geq k + 1$ . Therefore, we have shown that $m_k \\geq k$ for all $k = 1,2,\\ldots$ .",
+        "bbox": [
+            30,
+            305,
+            693,
+            556
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Let $\\varepsilon > 0$ be given. Then, by definition of the limit, there exists $K$ such that $\\| \\pmb{x}^{(k)} - \\pmb{x}^* \\| < \\varepsilon$ for any $k > K$ . Because $m_k \\geq k$ , we also have $\\| \\pmb{x}^{(m_k)} - \\pmb{x}^* \\| < \\varepsilon$ for any $k > K$ . This means that",
+        "bbox": [
+            30,
+            556,
+            693,
+            682
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {k \\rightarrow \\infty} \\boldsymbol {x} ^ {(m _ {k})} = \\boldsymbol {x} ^ {*}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            705,
+            439,
+            776
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "It turns out that any bounded sequence contains a convergent subsequence. This result is called the Bolzano-Weierstrass theorem (see [2, p. 70]).",
+        "bbox": [
+            30,
+            874,
+            690,
+            960
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits (连续)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            465,
+            160
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Consider a function $\\pmb{f}:\\mathbb{R}^n\\to \\mathbb{R}^m$ and a point $\\pmb{x}_0\\in \\mathbb{R}^n$ . Suppose that there exists $f^{*}$ such that for any convergent sequence $\\{\\pmb{x}^{(k)}\\}$ with limit $\\pmb{x}_0$ , we have",
+        "bbox": [
+            46,
+            188,
+            679,
+            305
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {k \\rightarrow \\infty} \\boldsymbol {f} (\\boldsymbol {x} ^ {(k)}) = \\boldsymbol {f} ^ {*}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            301,
+            443,
+            364
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Then, we use the notation",
+        "bbox": [
+            46,
+            380,
+            269,
+            419
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {\\boldsymbol {x} \\rightarrow \\boldsymbol {x} _ {0}} \\boldsymbol {f} (\\boldsymbol {x})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            419,
+            408,
+            474
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "to represent the limit $f^{*}$ .",
+        "bbox": [
+            46,
+            494,
+            256,
+            533
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "It turns out that f is continuous at $x_{0}$ if and only if for any convergent sequence $\\{\\boldsymbol{x}^{(k)}\\}$ with limit $x_{0}$ , we have",
+        "bbox": [
+            46,
+            533,
+            679,
+            615
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {k \\rightarrow \\infty} f (x ^ {(k)}) = f \\left(\\lim _ {k \\rightarrow \\infty} x ^ {(k)}\\right) = f (x _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            639,
+            527,
+            725
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(see [2, p. 137]). Therefore, using the notation introduced above, the function $\\pmb{f}$ is continuous at $x_0$ if and only if",
+        "bbox": [
+            48,
+            752,
+            679,
+            835
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {\\boldsymbol {x} \\rightarrow \\boldsymbol {x} _ {0}} \\boldsymbol {f} (\\boldsymbol {x}) = \\boldsymbol {f} (\\boldsymbol {x} _ {0}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            862,
+            448,
+            921
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "5.1 Sequences and Limits",
+        "text_level": 2,
+        "bbox": [
+            11,
+            101,
+            350,
+            160
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "矩阵的极限",
+        "text_level": 2,
+        "bbox": [
+            15,
+            184,
+            136,
+            231
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "We say that a sequence $\\{\\pmb{A}_k\\}$ of $m \\times n$ matrices converges to the $m \\times n$ matrix $\\pmb{A}$ if",
+        "bbox": [
+            35,
+            305,
+            849,
+            407
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {k \\rightarrow \\infty} \\| \\boldsymbol {A} - \\boldsymbol {A} _ {k} \\| = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            333,
+            407,
+            554,
+            482
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Lemma 5.1 Let $\\mathbf{A} \\in \\mathbb{R}^{n \\times n}$ . Then, $\\lim_{k \\to \\infty} \\mathbf{A}^k = \\mathbf{O}$ if and only if the eigenvalues of $\\mathbf{A}$ satisfy $|\\lambda_i(\\mathbf{A})| < 1$ , $i = 1, \\ldots, n$ .",
+        "bbox": [
+            35,
+            517,
+            852,
+            623
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Proof. To prove this theorem, we use the Jordan form (see, e.g., [47]). Specifically, it is well known that any square matrix is similar to the Jordan form: There exists a nonsingular T such that",
+        "bbox": [
+            35,
+            658,
+            852,
+            811
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {T} \\boldsymbol {A} \\boldsymbol {T} ^ {- 1} = \\operatorname{diag} \\left[ \\boldsymbol {J} _ {m _ {1}} (\\lambda_ {1}), \\dots , \\boldsymbol {J} _ {m _ {s}} (\\lambda_ {1}), \\boldsymbol {J} _ {n _ {1}} (\\lambda_ {2}), \\dots , \\boldsymbol {J} _ {t _ {\\nu}} (\\lambda_ {q}) \\right] \\triangleq \\boldsymbol {J},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            90,
+            843,
+            796,
+            909
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "5.2 Differentiability",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            267,
+            160
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Differential calculus is based on the idea of approximating an arbitrary function by an affine function. A function $\\mathcal{A}:\\mathbb{R}^{n}\\to\\mathbb{R}^{m}$ is affine if there exists a linear function $\\mathcal{L}:\\mathbb{R}^{n}\\to\\mathbb{R}^{m}$ and a vector $y\\in\\mathbb{R}^{m}$ such that",
+        "bbox": [
+            28,
+            188,
+            512,
+            282
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathcal {A} (\\boldsymbol {x}) = \\mathcal {L} (\\boldsymbol {x}) + \\boldsymbol {y}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            211,
+            301,
+            328,
+            333
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "for every $x \\in R^{n}$ . Consider a function $f : R^{n} \\to R^{m}$ and a point $x_{0} \\in R^{n}$ . We wish to find an affine function A that approximates f near the point $x_{0}$ . First, it is natural to impose the condition",
+        "bbox": [
+            28,
+            356,
+            509,
+            450
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathcal {A} (\\boldsymbol {x} _ {0}) = \\boldsymbol {f} (\\boldsymbol {x} _ {0}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            466,
+            320,
+            501
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Because $\\mathcal{A}(\\pmb{x}) = \\mathcal{L}(\\pmb{x}) + \\pmb{y}$ , we obtain $\\pmb{y} = \\pmb{f}(\\pmb{x}_0) - \\mathcal{L}(\\pmb{x}_0)$ . By the linearity of $\\mathcal{L}$ ,",
+        "bbox": [
+            28,
+            521,
+            512,
+            584
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathcal {L} (\\boldsymbol {x}) + \\boldsymbol {y} = \\mathcal {L} (\\boldsymbol {x}) - \\mathcal {L} (\\boldsymbol {x} _ {0}) + \\boldsymbol {f} (\\boldsymbol {x} _ {0}) = \\mathcal {L} (\\boldsymbol {x} - \\boldsymbol {x} _ {0}) + \\boldsymbol {f} (\\boldsymbol {x} _ {0}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            90,
+            580,
+            448,
+            615
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Hence, we may write",
+        "bbox": [
+            28,
+            627,
+            165,
+            658
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathcal {A} (\\boldsymbol {x}) = \\mathcal {L} (\\boldsymbol {x} - \\boldsymbol {x} _ {0}) + \\boldsymbol {f} (\\boldsymbol {x} _ {0}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            181,
+            682,
+            359,
+            713
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Next, we require that $\\mathcal{A}(\\pmb{x})$ approaches $\\pmb{f}(\\pmb{x})$ faster than $\\pmb{x}$ approaches $\\pmb{x}_0$ ; that is,",
+        "bbox": [
+            28,
+            733,
+            512,
+            796
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {\\boldsymbol {x} \\rightarrow \\boldsymbol {x} _ {0}, \\boldsymbol {x} \\in \\Omega} \\frac {\\| \\boldsymbol {f} (\\boldsymbol {x}) - \\mathcal {A} (\\boldsymbol {x}) \\|}{\\| \\boldsymbol {x} - \\boldsymbol {x} _ {0} \\|} = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            792,
+            366,
+            858
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "The conditions above on A ensure that A approximates f near $x_{0}$ in the sense that the error in the approximation at a given point is “small” compared with the distance of the point from $x_{0}$ .",
+        "bbox": [
+            28,
+            866,
+            512,
+            960
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 / 49",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "5.3 The Derivative Matrix (1/4)",
+        "text_level": 2,
+        "bbox": [
+            13,
+            98,
+            456,
+            160
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Any linear transformation from $\\mathbb{R}^n$ to $\\mathbb{R}^m$ , and in particular the derivative $\\mathcal{L}$ of $f: \\mathbb{R}^n \\to \\mathbb{R}^m$ , can be represented by an $m \\times n$ matrix. To find the matrix representation $L$ of the derivative $\\mathcal{L}$ of a differentiable function $f: \\mathbb{R}^n \\to \\mathbb{R}^m$ , we use the natural basis $\\{e_1, \\ldots, e_n\\}$ for $\\mathbb{R}^n$ . Consider the vectors",
+        "bbox": [
+            24,
+            172,
+            366,
+            258
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {x} _ {j} = \\boldsymbol {x} _ {0} + t \\boldsymbol {e} _ {j}, \\quad j = 1, \\dots , n.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            128,
+            274,
+            262,
+            298
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "By the definition of the derivative, we have",
+        "bbox": [
+            24,
+            309,
+            220,
+            333
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {t \\rightarrow 0} \\frac {\\boldsymbol {f} (\\boldsymbol {x} _ {j}) - (t \\boldsymbol {L e} _ {j} + \\boldsymbol {f} (\\boldsymbol {x} _ {0}))}{t} = \\mathbf {0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            121,
+            341,
+            269,
+            388
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "for $j = 1, \\ldots, n$ . This means that",
+        "bbox": [
+            22,
+            427,
+            174,
+            450
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {t \\rightarrow 0} \\frac {\\boldsymbol {f} (\\boldsymbol {x} _ {j}) - \\boldsymbol {f} (\\boldsymbol {x} _ {0})}{t} = \\boldsymbol {L e} _ {j}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            132,
+            462,
+            251,
+            505
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "for $j = 1, \\ldots, n$ . But $Le_{j}$ is the jth column of the matrix L. On the other hand, the vector $x_{j}$ differs from $x_{0}$ only in the jth coordinate, and in that coordinate the difference is just the number t. Therefore, the left side of the preceding equation is the partial derivative",
+        "bbox": [
+            19,
+            517,
+            364,
+            607
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial \\boldsymbol {f}}{\\partial x _ {j}} (\\boldsymbol {x} _ {0}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            169,
+            615,
+            214,
+            666
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Because vector limits are computed by taking the limit of each coordinate function, it follows that if",
+        "bbox": [
+            22,
+            678,
+            364,
+            725
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {f} (\\boldsymbol {x}) = \\left[ \\begin{array}{c} f _ {1} (\\boldsymbol {x}) \\\\ \\vdots \\\\ f _ {m} (\\boldsymbol {x}) \\end{array} \\right],\n$$",
+        "text_format": "latex",
+        "bbox": [
+            150,
+            733,
+            236,
+            827
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "then",
+        "bbox": [
+            22,
+            839,
+            48,
+            862
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial \\boldsymbol {f}}{\\partial x _ {j}} (\\boldsymbol {x} _ {0}) = \\left[ \\begin{array}{c} \\frac {\\partial f _ {1}}{\\partial x _ {j}} (\\boldsymbol {x} _ {0}) \\\\ \\vdots \\\\ \\frac {\\partial f _ {m}}{\\partial x _ {j}} (\\boldsymbol {x} _ {0}) \\end{array} \\right],\n$$",
+        "text_format": "latex",
+        "bbox": [
+            139,
+            854,
+            249,
+            949
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 / 49",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "5.3 The Derivative Matrix (2/4)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            456,
+            160
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.5 If a function $\\pmb{f} : \\mathbb{R}^n \\to \\mathbb{R}^m$ is differentiable at $x_0$ , then the derivative of $\\pmb{f}$ at $x_0$ is determined uniquely and is represented by the $m \\times n$ derivative matrix $D\\pmb{f}(x_0)$ . The best affine approximation to $\\pmb{f}$ near $x_0$ is then given by",
+        "bbox": [
+            26,
+            188,
+            766,
+            380
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathcal {A} (\\boldsymbol {x}) = \\boldsymbol {f} \\left(\\boldsymbol {x} _ {0}\\right) + D \\boldsymbol {f} \\left(\\boldsymbol {x} _ {0}\\right) \\left(\\boldsymbol {x} - \\boldsymbol {x} _ {0}\\right),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            229,
+            376,
+            562,
+            427
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "in the sense that",
+        "bbox": [
+            28,
+            450,
+            196,
+            494
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {f} (\\boldsymbol {x}) = \\mathcal {A} (\\boldsymbol {x}) + \\boldsymbol {r} (\\boldsymbol {x})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            494,
+            496,
+            545
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "and $\\lim_{x\\to x_{0}}\\|r(x)\\|/\\|x-x_{0}\\|=0$ . The columns of the derivative matrix $Df(x_{0})$ are vector partial derivatives. The vector",
+        "bbox": [
+            19,
+            611,
+            766,
+            705
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial \\boldsymbol {f}}{\\partial x _ {j}} (\\boldsymbol {x} _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            350,
+            733,
+            439,
+            839
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "is a tangent vector at $x_{0}$ to the curve f obtained by varying only the jth coordinate of x. □",
+        "bbox": [
+            19,
+            862,
+            766,
+            960
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "5.3 The Derivative Matrix",
+        "text_level": 2,
+        "bbox": [
+            11,
+            101,
+            355,
+            156
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "If $f:\\mathbb{R}^{n}\\to \\mathbb{R}$ is differentiable, then the function $\\nabla f$ defined by",
+        "bbox": [
+            50,
+            192,
+            509,
+            227
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla f (\\boldsymbol {x}) = \\left[ \\begin{array}{c} \\frac {\\partial f}{\\partial x _ {1}} (\\boldsymbol {x}) \\\\ \\vdots \\\\ \\frac {\\partial f}{\\partial x _ {n}} (\\boldsymbol {x}) \\end{array} \\right] = D f (\\boldsymbol {x}) ^ {\\top}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            194,
+            247,
+            421,
+            396
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "is called the gradient of $f$ . The gradient is a function from $\\mathbb{R}^n$ to $\\mathbb{R}^n$ , and can be pictured as a vector field, by drawing the arrow representing $\\nabla f(\\pmb{x})$ so that its tail starts at $\\pmb{x}$ .",
+        "bbox": [
+            30,
+            415,
+            584,
+            517
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Given $f: \\mathbb{R}^n \\to \\mathbb{R}$ , if $\\nabla f$ is differentiable, we say that $f$ is twice differentiable, and we write the derivative of $\\nabla f$ as",
+        "bbox": [
+            33,
+            517,
+            584,
+            588
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD ^ {2} f = \\left[ \\begin{array}{c c c c} \\frac {\\partial^ {2} f}{\\partial x _ {1} ^ {2}} & \\frac {\\partial^ {2} f}{\\partial x _ {2} \\partial x _ {1}} & \\dots & \\frac {\\partial^ {2} f}{\\partial x _ {n} \\partial x _ {1}} \\\\ \\frac {\\partial^ {2} f}{\\partial x _ {1} \\partial x _ {2}} & \\frac {\\partial^ {2} f}{\\partial x _ {2} ^ {2}} & \\dots & \\frac {\\partial^ {2} f}{\\partial x _ {n} \\partial x _ {2}} \\\\ \\vdots & \\vdots & \\ddots & \\vdots \\\\ \\frac {\\partial^ {2} f}{\\partial x _ {1} \\partial x _ {n}} & \\frac {\\partial^ {2} f}{\\partial x _ {2} \\partial x _ {n}} & \\dots & \\frac {\\partial^ {2} f}{\\partial x _ {n} ^ {2}} \\end{array} \\right].\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            607,
+            459,
+            815
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "(The notation $\\frac{\\partial^2f}{\\partial x_i\\partial x_j}$ represents taking the partial derivative of $f$ with respect to $x_{j}$ first, then with respect to $x_{i}$ .) The matrix $D^2 f(\\pmb {x})$ is called the Hessian matrix of $f$ at $\\pmb{x}$ , and is often also denoted $\\pmb{F}(\\pmb{x})$ .",
+        "bbox": [
+            30,
+            835,
+            584,
+            960
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25 / 49",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "5.3 The Derivative Matrix",
+        "text_level": 2,
+        "bbox": [
+            11,
+            101,
+            359,
+            160
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Note that the Hessian matrix of a function $f: R^{n} \\to R$ at x is symmetric if f is twice continuously differentiable at x. This is a well-known result from calculus called Clairaut's theorem or Schwarz's theorem. However, if the second partial derivatives of f are not continuous, then there is no guarantee that the Hessian is symmetric, as shown in the following well-known example.",
+        "bbox": [
+            30,
+            211,
+            951,
+            501
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Example 5.1 Consider the function",
+        "bbox": [
+            33,
+            541,
+            481,
+            596
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (\\boldsymbol {x}) = \\left\\{ \\begin{array}{l l} x _ {1} x _ {2} (x _ {1} ^ {2} - x _ {2} ^ {2}) / (x _ {1} ^ {2} + x _ {2} ^ {2}) & \\text { if } \\boldsymbol {x} \\neq \\boldsymbol {0} \\\\ 0 & \\text { if } \\boldsymbol {x} = \\boldsymbol {0}. \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            635,
+            757,
+            788
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "26 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "5.4 Differentiation Rules",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            331,
+            156
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "We now introduce the chain rule for differentiating the composition $g(\\boldsymbol{f}(t))$ , of a function $f: R \\to R^{n}$ and a function $g: R^{n} \\to R$ .",
+        "bbox": [
+            26,
+            172,
+            417,
+            227
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.6 Let $g: \\mathcal{D} \\to \\mathbb{R}$ be differentiable on an open set $\\mathcal{D} \\subset \\mathbb{R}^n$ , and let $f: (a, b) \\to \\mathcal{D}$ be differentiable on $(a, b)$ . Then, the composite function $h: (a, b) \\to \\mathbb{R}$ given by $h(t) = g(f(t))$ is differentiable on $(a, b)$ , and",
+        "bbox": [
+            28,
+            239,
+            417,
+            321
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {\\prime} (t) = D g (\\boldsymbol {f} (t)) D \\boldsymbol {f} (t) = \\nabla g (\\boldsymbol {f} (t)) ^ {\\top} \\left[ \\begin{array}{c} f _ {1} ^ {\\prime} (t) \\\\ \\vdots \\\\ f _ {n} ^ {\\prime} (t) \\end{array} \\right].\n$$",
+        "text_format": "latex",
+        "bbox": [
+            105,
+            329,
+            339,
+            435
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Proof. By definition,",
+        "bbox": [
+            28,
+            486,
+            139,
+            513
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {\\prime} (t) = \\lim _ {s \\rightarrow t} \\frac {h (s) - h (t)}{s - t} = \\lim _ {s \\rightarrow t} \\frac {g (\\boldsymbol {f} (s)) - g (\\boldsymbol {f} (t))}{s - t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            525,
+            342,
+            576
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "if the limit exists. By Theorem 5.5 we write",
+        "bbox": [
+            28,
+            588,
+            253,
+            615
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\ng (\\boldsymbol {f} (s)) - g (\\boldsymbol {f} (t)) = D g (\\boldsymbol {f} (t)) (\\boldsymbol {f} (s) - \\boldsymbol {f} (t)) + r (s),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            94,
+            631,
+            348,
+            662
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "where $\\lim_{s\\to t}r(s)/(s-t)=0$ . Therefore,",
+        "bbox": [
+            28,
+            674,
+            238,
+            701
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {h (s) - h (t)}{s - t} = D g (\\boldsymbol {f} (t)) \\frac {\\boldsymbol {f} (s) - \\boldsymbol {f} (t)}{s - t} + \\frac {r (s)}{s - t}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            110,
+            717,
+            335,
+            768
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Letting $s\\to t$ yields",
+        "bbox": [
+            22,
+            807,
+            128,
+            835
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {\\prime} (t) = \\lim _ {s \\rightarrow t} D g (\\boldsymbol {f} (t)) \\frac {\\boldsymbol {f} (s) - \\boldsymbol {f} (t)}{s - t} + \\frac {r (s)}{s - t} = D g (\\boldsymbol {f} (t)) D \\boldsymbol {f} (t).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            847,
+            368,
+            901
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27 / 49",
+        "bbox": [
+            942,
+            960,
+            986,
+            988
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "5.4 Differentiation Rules",
+        "text_level": 2,
+        "bbox": [
+            11,
+            101,
+            333,
+            156
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Next, we present the product rule. Let $\\pmb{f}:\\mathbb{R}^n\\to \\mathbb{R}^m$ and $\\pmb {g}:\\mathbb{R}^n\\to \\mathbb{R}^m$ be two differentiable functions. Define the function $h:\\mathbb{R}^n\\to \\mathbb{R}$ by $h(\\pmb {x}) = \\pmb {f}(\\pmb {x})^{\\top}\\pmb {g}(\\pmb {x})$ . Then, $h$ is also differentiable and",
+        "bbox": [
+            24,
+            188,
+            589,
+            298
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD h (\\boldsymbol {x}) = \\boldsymbol {f} (\\boldsymbol {x}) ^ {\\top} D \\boldsymbol {g} (\\boldsymbol {x}) + \\boldsymbol {g} (\\boldsymbol {x}) ^ {\\top} D \\boldsymbol {f} (\\boldsymbol {x}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            317,
+            450,
+            360
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "We end this section with a list of some useful formulas from multivariable calculus. In each case, we compute the derivative with respect to x. Let $A \\in R^{m \\times n}$ be a given matrix and $y \\in R^{m}$ a given vector. Then,",
+        "bbox": [
+            24,
+            384,
+            589,
+            494
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} D (\\boldsymbol {y} ^ {\\top} \\boldsymbol {A} \\boldsymbol {x}) = \\boldsymbol {y} ^ {\\top} \\boldsymbol {A} \\\\ D (\\boldsymbol {x} ^ {\\top} \\boldsymbol {A} \\boldsymbol {x}) = \\boldsymbol {x} ^ {\\top} (\\boldsymbol {A} + \\boldsymbol {A} ^ {\\top}) \\quad \\text { if } m = n. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            165,
+            513,
+            448,
+            607
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "It follows from the first formula above that if $y \\in R^{n}$ , then",
+        "bbox": [
+            24,
+            631,
+            459,
+            670
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD (\\boldsymbol {y} ^ {\\top} \\boldsymbol {x}) = \\boldsymbol {y} ^ {\\top}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            249,
+            690,
+            366,
+            737
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "It follows from the second formula above that if Q is a symmetric matrix, then",
+        "bbox": [
+            24,
+            760,
+            589,
+            831
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD (\\boldsymbol {x} ^ {\\top} \\boldsymbol {Q} \\boldsymbol {x}) = 2 \\boldsymbol {x} ^ {\\top} \\boldsymbol {Q}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            231,
+            827,
+            384,
+            870
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "In particular,",
+        "bbox": [
+            24,
+            886,
+            130,
+            921
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD (\\boldsymbol {x} ^ {\\top} \\boldsymbol {x}) = 2 \\boldsymbol {x} ^ {\\top}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            913,
+            370,
+            956
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "28 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "5.5 Level Sets and Gradients (1/3)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            492,
+            160
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "The level set of a function $f : R^{n} \\to R$ at level c is the set of points",
+        "bbox": [
+            33,
+            200,
+            704,
+            250
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\nS = \\{\\boldsymbol {x}: f (\\boldsymbol {x}) = c \\}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            313,
+            286,
+            514,
+            337
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "For $f: \\mathbb{R}^2 \\to \\mathbb{R}$ , we are usually interested in $S$ when it is a curve. For $f: \\mathbb{R}^3 \\to \\mathbb{R}$ , the sets $S$ most often considered are surfaces.",
+        "bbox": [
+            33,
+            372,
+            794,
+            470
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb2a551bd02fe74af263f6219186169a04e438704824c2e3e3c25bbf82bbdfc1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            86,
+            568,
+            375,
+            917
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "images/541a1906bf85a4e24128851227d468e40b1a1a4c9f302da1e0351227fb92e615.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            456,
+            600,
+            754,
+            854
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "29 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "5.5 Level Sets and Gradients (2/3)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            490,
+            160
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Example 5.2 Consider the following real-valued function on $\\mathbb{R}^2$ :",
+        "bbox": [
+            28,
+            200,
+            593,
+            243
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (\\boldsymbol {x}) = 1 0 0 (x _ {2} - x _ {1} ^ {2}) ^ {2} + (1 - x _ {1}) ^ {2}, \\quad \\boldsymbol {x} = [ x _ {1}, x _ {2} ] ^ {\\top}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            132,
+            270,
+            584,
+            325
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "The function above is called Rosenbrock's function. A plot of the function f is shown in Figure 5.2. The level sets of f at levels 0.7, 7, 70, 200, and 700 are depicted in Figure 5.3. These level sets have a particular shape resembling",
+        "bbox": [
+            28,
+            352,
+            690,
+            482
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/1a7db62d96f3b80adc2f16f28d3750b9b9d4547bd9c7ed8e6b9d1afae3f40314.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            75,
+            627,
+            320,
+            905
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/d80e05decb03c3ed8986d2c88c3a6237799baa411f05fb2711087d282f2eae4d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            428,
+            603,
+            644,
+            913
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "30 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "5.5 Level Sets and Gradients (3/3)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            479,
+            160
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/5bf2c30746e0580cfc6e8950cbe40e30d7665d0c7623a2df15bce3b78f100c25.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            331,
+            192,
+            657,
+            631
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "To say that a point $x_{0}$ is on the level set S at level c means that $f(\\boldsymbol{x}_{0}) = c$ . Now suppose that there is a curve $\\gamma$ lying in S and parameterized by a continuously differentiable function $g : R \\to R^{n}$ . Suppose also that $g(t_{0}) = x_{0}$ and $D\\boldsymbol{g}(t_{0}) = \\boldsymbol{v} \\neq \\boldsymbol{0}$ , so that v is a tangent vector to $\\gamma$ at $x_{0}$ (see Figure 5.4). Applying the chain rule to the function $h(t) = f(\\boldsymbol{g}(t))$ at $t_{0}$ gives",
+        "bbox": [
+            227,
+            686,
+            781,
+            866
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {\\prime} (t _ {0}) = D f (\\boldsymbol {g} (t _ {0})) D \\boldsymbol {g} (t _ {0}) = D f (\\boldsymbol {x} _ {0}) \\boldsymbol {v}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            886,
+            642,
+            929
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "But since $\\gamma$ lies on $S$ , we have",
+        "bbox": [
+            227,
+            952,
+            450,
+            992
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "31 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "5.6 Taylor Series",
+        "text_level": 2,
+        "bbox": [
+            11,
+            101,
+            236,
+            160
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "演示：https://www.geogebra.org/m/rfdkjwpx",
+        "bbox": [
+            15,
+            188,
+            540,
+            239
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.8 Taylor's Theorem. Assume that a function $f: \\mathbb{R} \\to \\mathbb{R}$ is $m$ times continuously differentiable (i.e., $f \\in C^m$ ) on an interval $[a, b]$ . Denote $h = b - a$ . Then,",
+        "bbox": [
+            50,
+            313,
+            962,
+            486
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (b) = f (a) + \\frac {h}{1 !} f ^ {(1)} (a) + \\frac {h ^ {2}}{2 !} f ^ {(2)} (a) + \\dots + \\frac {h ^ {m - 1}}{(m - 1) !} f ^ {(m - 1)} (a) + R _ {m},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            90,
+            517,
+            920,
+            639
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(called Taylor's formula) where $f^{(i)}$ is the $i$ th derivative of $f$ , and",
+        "bbox": [
+            55,
+            682,
+            836,
+            745
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {m} = \\frac {h ^ {m} (1 - \\theta) ^ {m - 1}}{(m - 1) !} f ^ {(m)} (a + \\theta h) = \\frac {h ^ {m}}{m !} f ^ {(m)} (a + \\theta^ {\\prime} h),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            181,
+            772,
+            830,
+            901
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "with $\\theta, \\theta' \\in (0,1)$ .",
+        "bbox": [
+            55,
+            933,
+            264,
+            992
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "32 / 49",
+        "bbox": [
+            933,
+            941,
+            988,
+            992
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Theorem 5.9 If a function $\\pmb{f} : \\mathbb{R}^n \\to \\mathbb{R}^m$ is differentiable on an open set $\\Omega \\subset \\mathbb{R}^n$ , then for any pair of points $\\pmb{x}, \\pmb{y} \\in \\Omega$ , there exists a matrix $M$ such that",
+        "bbox": [
+            26,
+            270,
+            955,
+            439
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {f} (\\boldsymbol {x}) - \\boldsymbol {f} (\\boldsymbol {y}) = M (\\boldsymbol {x} - \\boldsymbol {y}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            328,
+            443,
+            655,
+            509
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "The mean value theorem follows from Taylor's theorem (for the case where m = 1) applied to each component of f. It is easy to see that M is a matrix whose rows are the rows of Df evaluated at points that lie on the line segment joining x and y (these points may differ from row to row).",
+        "bbox": [
+            26,
+            631,
+            955,
+            870
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "header",
+        "text": "5.6 Taylor Series",
+        "bbox": [
+            8,
+            101,
+            236,
+            160
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "33 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "优化：Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            11,
+            98,
+            392,
+            164
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "★ Problem",
+        "bbox": [
+            30,
+            188,
+            167,
+            239
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "$\\min_{\\boldsymbol{x}\\in\\Omega}f(\\boldsymbol{x})$",
+        "bbox": [
+            470,
+            321,
+            571,
+            396
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "\\- $f$ : objective function",
+        "bbox": [
+            41,
+            403,
+            286,
+            454
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "\\- $\\Omega \\subset \\mathbb{R}^{n}$ : feasible set / constraint set",
+        "bbox": [
+            41,
+            466,
+            445,
+            521
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "$\\max f(\\boldsymbol{x})$ can be changed to $\\min -f(\\boldsymbol{x})$",
+        "bbox": [
+            64,
+            600,
+            485,
+            658
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "1. Modeling: Practical problems → Optimization problems",
+        "bbox": [
+            64,
+            800,
+            708,
+            854
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "2. Algorithms: Methods to solve",
+        "bbox": [
+            64,
+            866,
+            430,
+            917
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "3. Software: Implement",
+        "bbox": [
+            64,
+            933,
+            364,
+            984
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "34 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            298,
+            160
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "★ Types of Optimization Problems",
+        "bbox": [
+            28,
+            188,
+            331,
+            227
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "\\- Constrained vs. Non-Constrained $x \\in \\Omega$ $x \\in \\mathbb{R}^{n}$ , i.e., $x$ is free",
+        "bbox": [
+            35,
+            235,
+            439,
+            329
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "\\- Convex vs. Non-convex both $f$ and $\\Omega$ are convex",
+        "bbox": [
+            35,
+            337,
+            339,
+            427
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "\\- Smooth vs. Non-Smooth $\\nabla f$ $\\partial f$ - 1-d $R^{1}$ vs. n-d $R^{n}$",
+        "bbox": [
+            35,
+            435,
+            344,
+            580
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "\\- illustration\n- motivation    Harder due to infinite directions\n- understanding",
+        "bbox": [
+            66,
+            615,
+            490,
+            800
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/96fbd9f2c6ed7ad23e881e73ef2a166727c1e6426e1e9d831748caddec8102d5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            94,
+            803,
+            604,
+            933
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "35 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "text_level": 2,
+        "bbox": [
+            30,
+            211,
+            178,
+            258
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "1. $\\min_{x\\in[0,5]}f(x)$ , $f(x)=x^{3}-6x^{2}+9x+1$",
+        "bbox": [
+            64,
+            274,
+            551,
+            333
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/b49bfe15471c8ccaebde131d5a4791aeb89c84aec16f84a1ca6a76079d016ead.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            423,
+            337,
+            620,
+            627
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "This is a 1-d smooth, non-convex, and constrained optimization sol. (only outline, not detailed solution)",
+        "bbox": [
+            64,
+            666,
+            715,
+            784
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "critical pts: $f'(x) = 0$ , x = 1 or x = 3",
+        "bbox": [
+            64,
+            796,
+            509,
+            847
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "min or max ? $f''(1) < 0$ local max, $f''(3) > 0$ local min",
+        "bbox": [
+            64,
+            862,
+            710,
+            917
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "36 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nTopic 1: Introduction\n★ Examples\nQuestion: how about the case $f''(x) = 0$?\nCan we conclude the answer is $x = 3$?\nNo! This is a constrained opt. problem. Check\n1. $x = 3 \\in \\Omega = [0,5]$,\n2. compare with values on boundary: $f(0), f(5)$\nThe final answer is $\\min_{x \\in [0,5]} f(x) = 1$, and is achieved at $x = 0, 3$.\nQuestion: Change the constraint $\\min_x f(x)$ s.t. $x \\in [-1,1]$\n</div>",
+        "bbox": [
+            15,
+            50,
+            838,
+            960
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "37 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            298,
+            164
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "bbox": [
+            30,
+            188,
+            178,
+            239
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "2.",
+        "bbox": [
+            66,
+            254,
+            92,
+            301
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Critical pts:",
+        "bbox": [
+            66,
+            811,
+            189,
+            862
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} f (x, y) = (x - 1) ^ {2} + (y - 1) ^ {2} \\\\ \\min _ {(x, y) \\in \\mathbb {R} ^ {2}} f (x, y) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            329,
+            677,
+            505
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/b75e5ea5d435d22bb9817c7f3bd3f4a1cf0d34c56cd31e3fa0a2b8985c8f29ee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            412,
+            537,
+            629,
+            760
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l l} \\frac {\\partial f}{\\partial x} (x, y) = 0, & 2 (x - 1) = 0 \\quad \\Rightarrow \\quad x = 1 \\\\ \\frac {\\partial f}{\\partial y} (x, y) = 0, & 2 (y - 1) = 0 \\quad \\Rightarrow \\quad y = 1 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            858,
+            763,
+            1000
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "38 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            15,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "text_level": 2,
+        "bbox": [
+            28,
+            184,
+            130,
+            219
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Second order conditions.",
+        "bbox": [
+            50,
+            227,
+            227,
+            258
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "▶ 1-d: $f''(x) > 0$",
+        "bbox": [
+            68,
+            274,
+            189,
+            305
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "▶ 2-d: Hessian matrix",
+        "bbox": [
+            68,
+            313,
+            216,
+            345
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla^ {2} f = \\left( \\begin{array}{c c} \\frac {\\partial^ {2} f}{\\partial x ^ {2}} & \\frac {\\partial^ {2} f}{\\partial y \\partial x} \\\\ \\frac {\\partial^ {2} f}{\\partial x \\partial y} & \\frac {\\partial^ {2} f}{\\partial y ^ {2}} \\end{array} \\right), \\text { formally } \\nabla^ {2} f \\succ 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            214,
+            384,
+            518,
+            490
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "For a symmetric matrix $A = \\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}$ ,",
+        "bbox": [
+            50,
+            505,
+            350,
+            607
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA \\succ 0 \\text {   if   } (u, v) A \\binom{u}{v} > 0 \\forall (u, v) \\in \\mathbb {R} ^ {2},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            211,
+            631,
+            516,
+            737
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "i.e., $\\alpha_{11}u^{2} + 2a_{12}uv + a_{22}v^{2} > 0,\\quad \\forall u,v$",
+        "bbox": [
+            50,
+            760,
+            346,
+            800
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "特殊值: Set v = 0, u = 1 → $a_{11} > 0$",
+        "bbox": [
+            50,
+            807,
+            346,
+            847
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text { Set   } u = 0, v = 1 \\quad \\rightarrow \\quad a _ {2 2} > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            112,
+            854,
+            346,
+            890
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\det (A) = a _ {1 1} a _ {2 2} - a _ {1 2} ^ {2} > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            898,
+            247,
+            941
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "page_number",
+        "text": "39 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "$2 \\times 2$ symmetric $A \\succ 0$ if $a_{11}$ and $\\det(A) > 0$",
+        "bbox": [
+            17,
+            180,
+            392,
+            223
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "A can be better viewed as $A = Q^{T} \\wedge Q$ , where $\\Lambda = \\begin{pmatrix} \\lambda_{1} & 0 \\\\ 0 & \\lambda_{2} \\end{pmatrix}$ and Q consists of corresponding eigenvectors, and $Q^{T}Q = I$",
+        "bbox": [
+            15,
+            258,
+            781,
+            423
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA \\succ 0 \\Leftrightarrow \\lambda_ {1} > 0, \\lambda_ {2} > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            19,
+            470,
+            222,
+            517
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA \\not \\asymp 0 \\left\\{ \\begin{array}{l} \\lambda_ {1} \\leq 0, \\lambda_ {2} \\leq 0 \\\\ \\lambda_ {1} \\lambda_ {2} \\leq 0 (+, -) \\quad \\text {   saddle   pt   } \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            549,
+            335,
+            690
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "image",
+        "img_path": "images/d69540bf1fe397ba36576d9c9e8712850588f0976b7058cde558ac1a093d61ea.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            331,
+            760,
+            465,
+            847
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "40 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Notation. $f:\\mathbb{R}^n\\to \\mathbb{R}\\quad \\pmb {x}\\in \\mathbb{R}^n,\\quad \\pmb {x} = (x_1,x_2,\\dots,x_n)$",
+        "bbox": [
+            17,
+            184,
+            498,
+            227
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD f \\triangleq (\\frac {\\partial f}{\\partial x _ {1}}, \\frac {\\partial f}{\\partial x _ {2}},..., \\frac {\\partial f}{\\partial x _ {n}}), \\quad \\nabla f = (D f) ^ {T} = \\left( \\begin{array}{c} \\frac {\\partial f}{\\partial x _ {1}} \\\\ ... \\\\ \\frac {\\partial f}{\\partial x _ {n}} \\end{array} \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            270,
+            472,
+            447
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "特例: 1-d, $f'(x)$ is the slope of the tangent line $\\frac{\\partial f}{\\partial x_{n}}$ at x",
+        "bbox": [
+            15,
+            490,
+            520,
+            549
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "image",
+        "img_path": "images/85ce1d9401cf27a0d89f581545a45ec3defc925b85fbc98e49df90b9a1d60d12.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            264,
+            615,
+            357,
+            745
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "image",
+        "img_path": "images/31583c4c580b77c8a3a77dc754f42bb8ea32489ede08046e1ceeb000d080356a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            390,
+            615,
+            476,
+            733
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vec {n} = (- f ^ {\\prime} (x), 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            749,
+            339,
+            780
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(x, y) \\rightarrow (x, y, f (x, y))\n$$",
+        "text_format": "latex",
+        "bbox": [
+            481,
+            635,
+            593,
+            674
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "a parametrigation",
+        "bbox": [
+            483,
+            674,
+            587,
+            713
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vec {t} = (1, f ^ {\\prime} (x))\n$$",
+        "text_format": "latex",
+        "bbox": [
+            269,
+            780,
+            339,
+            815
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vec {t} _ {1} = \\frac {\\partial \\vec {Y}}{\\partial x} = (1, 0, \\partial_ {x} f)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            741,
+            512,
+            784
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vec {t} _ {2} = \\frac {\\partial \\vec {r}}{\\partial y} = (0, 1, \\partial_ {y} f)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            780,
+            509,
+            823
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vec {n} = \\vec {t} _ {1} \\times \\vec {t} _ {2} = (- \\partial_ {x} f, - \\partial_ {y} f, 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            392,
+            827,
+            558,
+            862
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$H = \\nabla^{2}f = (\\frac{\\partial^{2}f}{\\partial x_{i}\\partial x_{j}})$ . As $\\frac{\\partial^2f}{\\partial x_i\\partial x_j} = \\frac{\\partial^2f}{\\partial x_j\\partial x_i}$ , $\\nabla^2$ is symmetric",
+        "bbox": [
+            17,
+            898,
+            543,
+            968
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "41 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "bbox": [
+            30,
+            192,
+            154,
+            235
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "3. $\\min_{x,y} f(x,y)$ s.t. $x + y = 3$",
+        "bbox": [
+            59,
+            250,
+            315,
+            305
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x, y) = (x - 1) ^ {2} + (y - 1) ^ {2}, \\quad \\Omega = \\{(x, y) \\in \\mathbb {R} ^ {2} | x + y = 3 \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            59,
+            305,
+            593,
+            356
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "This is a 2-d smooth, convex and constrained optimization.",
+        "bbox": [
+            59,
+            368,
+            569,
+            407
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "image",
+        "img_path": "images/43d39baa5a9c4965ea33f7862bc13e181985b5a6fcaace14314d28650a275fa7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            366,
+            407,
+            520,
+            643
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Level set $S_{c} = \\{\\pmb {x}:f(\\pmb {x}) = c\\}$",
+        "bbox": [
+            59,
+            666,
+            339,
+            713
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Level set $S_{c}$ is a curve in $R^{2}$",
+        "bbox": [
+            59,
+            725,
+            306,
+            768
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Graph of $f$ $(\\pmb {x},f(\\pmb {x}))\\in \\mathbb{R}^3$ is a surface in $\\mathbb{R}^3$",
+        "bbox": [
+            59,
+            776,
+            461,
+            827
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Non-constrained minimum is at $(1,1)$ red pt $\\nabla f(1,1)=0$",
+        "bbox": [
+            59,
+            835,
+            562,
+            882
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "With an equality constraint, the minimum is changed to brown where $\\nabla f \\neq 0$",
+        "bbox": [
+            57,
+            894,
+            730,
+            937
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "42 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            298,
+            160
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "text_level": 2,
+        "bbox": [
+            30,
+            211,
+            178,
+            258
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "For this problem, we can eliminate y to get a 1-d non-constraint smooth and convex opt problem.",
+        "bbox": [
+            61,
+            278,
+            977,
+            392
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny = 3 - x \\quad \\tilde {f} (x) \\triangleq f (x, 3 - x) = (x - 1) ^ {2} + (x - 2) ^ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            466,
+            801,
+            529
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\tilde {f} ^ {\\prime} (x) = 0, \\mathrm{so} x = \\frac {3}{2}, y = \\frac {3}{2} \\tilde {f} ^ {\\prime \\prime} (x) = 4 > 0 \\forall x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            607,
+            777,
+            705
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "$x = \\frac{3}{2}$ is a local minimum, and as $\\tilde{f}$ is convex, it is a global min. So $\\min f(x,y)$ s.t. $x+y=3$ is $\\frac{1}{2}$ , and the minimum pt $(\\frac{3}{2},\\frac{3}{2})$",
+        "bbox": [
+            61,
+            725,
+            977,
+            858
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Fact: for a convex function, a local minimum is also a global one (to be proved soon)",
+        "bbox": [
+            64,
+            862,
+            938,
+            917
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "43 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            298,
+            160
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nlevel sets and gradient\n$S_c = \\{x | f(x) = c\\}$. This is a smooth curve for most $c$.\nHow to represent/describe a curve $f(x) = c$? Parametrization.\n$g: \\mathbb{R} \\to \\mathbb{R}^n g(t) = (x(t), y(t))$ in $\\mathbb{R}^2$ $h: \\mathbb{R} \\to \\mathbb{R} h(t) \\triangleq f(g(t))$ $h(t) = c$ by definition. So $h'(t) = 0$\nBy chain rule, $h'(t) = \\nabla f(g(t)) \\cdot g'(t)$. So for a pt $x_0 \\in S_c$, we have $\\nabla f(x_0) \\cdot v = 0$ where $v$ is a tangent vector of $S_c$ at $x_0$.\nTheorem. $\\nabla f(x_0) \\perp v$, $\\forall v$ tangent vector at $x_0$ of the level set $S_c$ for $c = f(x_0)$ $\\nabla f(x)$ is the direction of maximum rate of increase of $f$ at $x$\n-$\\nabla f(x)$ is the direction of maximum rate of decrease of $f$ at $x$\n-$\\nabla f(x)$: steepest descent direction\n</div>",
+        "bbox": [
+            41,
+            192,
+            929,
+            952
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "page_number",
+        "text": "44 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            298,
+            160
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nlevel sets and gradient\n$S_c = \\{x | f(x) = c\\}$. This is a smooth curve for most $c$.\nHow to represent/describe a curve $f(x) = c$? Parametrization.\n$g: \\mathbb{R} \\to \\mathbb{R}^n g(t) = (x(t), y(t))$ in $\\mathbb{R}^2$ $h: \\mathbb{R} \\to \\mathbb{R} h(t) \\triangleq f(g(t))$ $h(t) = c$ by definition. So $h'(t) = 0$\nBy chain rule, $h'(t) = \\nabla f(g(t)) \\cdot g'(t)$. So for a pt $x_0 \\in S_c$, we have $\\nabla f(x_0) \\cdot v = 0$ where $v$ is a tangent vector of $S_c$ at $x_0$.\nTheorem. $\\nabla f(x_0) \\perp v$, $\\forall v$ tangent vector at $x_0$ of the level set $S_c$ for $c = f(x_0)$ $\\nabla f(x)$ is the direction of maximum rate of increase of $f$ at $x$ $-\\nabla f(x)$ is the direction of maximum rate of decrease of $f$ at $x$ $-\\nabla f(x)$: steepest descent direction\n</div>",
+        "bbox": [
+            33,
+            188,
+            980,
+            945
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "page_number",
+        "text": "44 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Topic 1: Introduction",
+        "text_level": 2,
+        "bbox": [
+            15,
+            101,
+            295,
+            160
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "★ Examples",
+        "text_level": 2,
+        "bbox": [
+            28,
+            184,
+            130,
+            219
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "4. Rosenbrock function $f(x_{1},x_{2}) = 100(x_{2} - x_{1}^{2})^{2} + (1 - x_{1})^{2}$",
+        "bbox": [
+            50,
+            227,
+            498,
+            266
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min _ {\\boldsymbol {x} \\in \\mathbb {R} ^ {2}} f\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            321,
+            388,
+            376
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "non-constrained, smooth, but non-convex",
+        "bbox": [
+            50,
+            384,
+            346,
+            419
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "$\\nabla f(\\boldsymbol {x}) = \\binom{-400x_{1}(x_{2} - x_{1}^{2}) - 2(1 - x_{1})}{200(x_{2} - x_{1}^{2})}$ , critical point (1,1)",
+        "bbox": [
+            50,
+            415,
+            505,
+            513
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (\\boldsymbol {x}) = \\nabla^ {2} f (\\boldsymbol {x}) = \\left( \\begin{array}{c c} 1 2 0 0 x _ {1} ^ {2} - 4 0 0 x _ {2} + 2 & - 4 0 0 x _ {1} \\\\ - 4 0 0 x _ {1} & 2 0 0 \\end{array} \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            52,
+            513,
+            432,
+            611
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "$H(1,1) = \\left( \\begin{array}{cc}802 & -400\\\\ -400 & 200 \\end{array} \\right),$ so $(1,1)$ is a local minimum.",
+        "bbox": [
+            52,
+            611,
+            454,
+            709
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "(1, 1) is also a global minimum. It is inside a long, narrow, parabolic shaped flab valley.",
+        "bbox": [
+            50,
+            709,
+            657,
+            745
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "image",
+        "img_path": "images/3feda8699f706996a5673fca93ca019e229d63f21e5f4bc97bdc684cd9739543.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            236,
+            752,
+            350,
+            929
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "image",
+        "img_path": "images/3d281560dad07daf41858b4699284ea4293282c7ec9811300bc1b1094465c618.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "Figure 5.3 Level sets of Rosembrock's (banana) function."
+        ],
+        "content": "",
+        "bbox": [
+            381,
+            745,
+            492,
+            917
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "page_number",
+        "text": "45 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "6.1 Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            52,
+            215,
+            377,
+            270
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            392,
+            313,
+            626,
+            447
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in C^{2}$ . For each of the following specifications for $\\Omega$ , $x^{*}$ , and f, determine if the given point $x^{*}$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer.",
+        "bbox": [
+            50,
+            486,
+            964,
+            662
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "b. $f: \\mathbb{R}^2 \\to \\mathbb{R}$ , $\\Omega = \\{\\pmb{x} = [x_1, x_2]^{\\top}: x_1 \\geq 1, x_2 \\geq 2\\}$ , $\\pmb{x}^* = [1, 2]^{\\top}$ , and gradient $\\nabla f(\\pmb{x}^*) = [1, 0]^{\\top}$ .",
+        "bbox": [
+            19,
+            768,
+            973,
+            905
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "header",
+        "text": "作业：习题",
+        "bbox": [
+            11,
+            50,
+            178,
+            113
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "page_number",
+        "text": "46 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "习题",
+        "text_level": 2,
+        "bbox": [
+            15,
+            101,
+            81,
+            160
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "6.1 Consider the problem",
+        "text_level": 2,
+        "bbox": [
+            41,
+            227,
+            260,
+            266
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} \\text { minimize } & f (\\boldsymbol {x}) \\\\ \\text { subject   to } & \\boldsymbol {x} \\in \\Omega , \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            271,
+            294,
+            426,
+            384
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "where $f \\in C^{2}$ . For each of the following specifications for $\\Omega$ , $x^{*}$ , and f, determine if the given point $x^{*}$ is: (i) definitely a local minimizer; (ii) definitely not a local minimizer; or (iii) possibly a local minimizer.",
+        "bbox": [
+            41,
+            411,
+            655,
+            529
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "c. $f: \\mathbb{R}^2 \\to \\mathbb{R}$ , $\\Omega = \\{\\pmb{x} = [x_1, x_2]^{\\top}: x_1 \\geq 0, x_2 \\geq 0\\}$ , $\\pmb{x}^* = [1, 2]^{\\top}$ , gradient $\\nabla f(\\pmb{x}^*) = [0, 0]^{\\top}$ , and Hessian $\\pmb{F}(\\pmb{x}^*) = \\pmb{I}$ (identity matrix).",
+        "bbox": [
+            30,
+            607,
+            653,
+            694
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "d. $f:\\mathbb{R}^2\\to \\mathbb{R},\\Omega = \\{\\pmb {x} = [x_1,x_2]^{\\top}:x_1\\geq 1,x_2\\geq 2\\} ,\\pmb{x}^{*} = [1,2]^{\\top}$ gradient $\\nabla f(\\pmb{x}^{*}) = [1,0]^{\\top}$ ,and Hessian",
+        "bbox": [
+            28,
+            713,
+            653,
+            800
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {F} (\\boldsymbol {x} ^ {*}) = \\left[ \\begin{array}{c c} 1 & 0 \\\\ 0 & - 1 \\end{array} \\right].\n$$",
+        "text_format": "latex",
+        "bbox": [
+            271,
+            823,
+            439,
+            933
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "page_number",
+        "text": "47 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "知识点、重点、难点",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            304,
+            113
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "知识点",
+        "text_level": 2,
+        "bbox": [
+            19,
+            215,
+            105,
+            274
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 优化问题的一般形式：",
+        "bbox": [
+            41,
+            352,
+            320,
+            407
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min _ {\\boldsymbol {x} \\in \\Omega} f (\\boldsymbol {x})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            465,
+            419,
+            573,
+            494
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "其中 $f(x)$ 为目标函数， $\\Omega$ 为约束集合。",
+        "bbox": [
+            64,
+            517,
+            525,
+            576
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 优化问题的主要分类：有约束 / 无约束、凸 / 非凸、光滑 / 非光滑。",
+        "bbox": [
+            41,
+            600,
+            860,
+            658
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 局部最小点与全局最小点的概念。",
+        "bbox": [
+            41,
+            678,
+            454,
+            733
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 梯度（Gradient）与 Hessian 矩阵在多维函数中的几何意义。",
+        "bbox": [
+            41,
+            756,
+            750,
+            815
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "page_number",
+        "text": "48 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "知识点、重点、难点",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            304,
+            113
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "重点",
+        "text_level": 2,
+        "bbox": [
+            17,
+            137,
+            79,
+            192
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "优化问题的核心在于通过一阶条件 $\\nabla f(x)=0$ 寻找候选极值点，并利用二阶条件（Hessian 的正定性）判断其为极小点；凸函数中局部最小即为全局最小，而含约束问题则常可通过变量消元化为无约束形式。",
+        "bbox": [
+            15,
+            203,
+            980,
+            400
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "难点",
+        "text_level": 2,
+        "bbox": [
+            17,
+            462,
+            79,
+            517
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "\\- 区分局部最小点、鞍点与约束最小点。",
+        "bbox": [
+            41,
+            545,
+            507,
+            603
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "\\- 约束优化中如何判断最优解是否在边界上。",
+        "bbox": [
+            41,
+            623,
+            558,
+            682
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "一句话总结：",
+        "text_level": 2,
+        "bbox": [
+            17,
+            756,
+            169,
+            811
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "本节核心在于理解优化问题的建模、分类与基本求解原则，掌握梯度和 Hessian 在判断极值中的作用，为后续最优条件的学习奠定基础。",
+        "bbox": [
+            15,
+            823,
+            977,
+            952
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "page_number",
+        "text": "49 / 49",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 49
+    }
+]

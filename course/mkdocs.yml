@@ -1,0 +1,62 @@
+site_name: 高级工程数学
+site_description: 2026 年高级工程数学课程讲义
+site_author: 课程讲义
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  language: zh
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: 切换至深色模式
+  - scheme: slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: 切换至浅色模式
+  features:
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - navigation.indexes
+  - search.highlight
+  - search.suggest
+  - content.code.copy
+  - content.code.annotate
+plugins:
+- search:
+    lang: zh
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.arithmatex:
+    generic: true
+- attr_list
+- md_in_html
+- tables
+- footnotes
+- toc:
+    permalink: true
+extra_javascript:
+- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+nav:
+- 首页: index.md
+- 课程讲义:
+  - '2026-09-27': chapters/lecture-2026-09-27.md
+  - '2026-10-04': chapters/lecture-2026-10-04.md
+  - '2026-10-06': chapters/lecture-2026-10-06.md
+  - '2026-10-11': chapters/lecture-2026-10-11.md
+  - '2026-10-18': chapters/lecture-2026-10-18.md
+  - '2026-10-25': chapters/lecture-2026-10-25.md

@@ -1,0 +1,4437 @@
+[
+    {
+        "type": "text",
+        "text": "高级工程数学",
+        "bbox": [
+            401,
+            231,
+            596,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2026-10-18",
+        "text_level": 2,
+        "bbox": [
+            423,
+            325,
+            573,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "沈超敏",
+        "bbox": [
+            459,
+            474,
+            538,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "计算机科学与技术学院",
+        "bbox": [
+            375,
+            549,
+            622,
+            603
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "cmshen@cs.ecnu.edu.cn",
+        "bbox": [
+            377,
+            623,
+            620,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "文附楼 105",
+        "bbox": [
+            437,
+            729,
+            560,
+            780
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1 / 50",
+        "bbox": [
+            951,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "今天内容",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            147,
+            113
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "\\- 复习、拓展",
+        "bbox": [
+            41,
+            270,
+            196,
+            325
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Topic 2 Conditions",
+        "bbox": [
+            66,
+            337,
+            267,
+            392
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ch. 7 (一维搜索方法)",
+        "bbox": [
+            66,
+            403,
+            302,
+            462
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Gradient Methods",
+        "bbox": [
+            66,
+            470,
+            258,
+            525
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Newton's Methods",
+        "bbox": [
+            64,
+            537,
+            264,
+            588
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "\\- Lagrange 乘子法",
+        "bbox": [
+            41,
+            615,
+            247,
+            670
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• The Karush–Kuhn–Tucker (KKT) Conditions",
+        "bbox": [
+            41,
+            694,
+            529,
+            749
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "上次内容回顾: Topic 2: Optimality Conditions",
+        "text_level": 2,
+        "bbox": [
+            15,
+            98,
+            635,
+            164
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Three acronyms:",
+        "bbox": [
+            19,
+            188,
+            194,
+            239
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• FONC (First Order Necessary Condition)",
+        "bbox": [
+            41,
+            305,
+            485,
+            360
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• SONC (Second Order Necessary Condition)",
+        "bbox": [
+            41,
+            372,
+            512,
+            427
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• SOSC (Second Order Sufficient Condition)",
+        "bbox": [
+            41,
+            439,
+            503,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/9c7776d2d674fcab2e4bf0fdea0d6c4ee45754dc7e9c50654c478662d2e54ca6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            114,
+            549,
+            869,
+            1000
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "interior pt $\\nabla f(x^{*}) = 0, \\nabla^{2}f(x^{*}) \\geqslant 0$",
+        "bbox": [
+            116,
+            839,
+            481,
+            894
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "general pt $\\nabla f(x^{*})\\cdot d\\geqslant 0\\quad \\forall d$",
+        "bbox": [
+            116,
+            901,
+            423,
+            949
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Topic 2: Conditions",
+        "text_level": 2,
+        "bbox": [
+            24,
+            50,
+            286,
+            109
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "★ First Order Necessary Condition",
+        "text_level": 2,
+        "bbox": [
+            28,
+            137,
+            320,
+            176
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Theorem. $x^{*}$ is a local minimizer of f over $\\Omega$ . Then for any feasible direction d at $x^{*}$ , we have",
+        "bbox": [
+            50,
+            188,
+            719,
+            270
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} \\geqslant 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            324,
+            282,
+            450,
+            325
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Explanation. ① feasible direction d at a point $x \\in \\Omega$ is a direction so that: starting from x and moving towards d remains in $\\Omega$ .",
+        "bbox": [
+            52,
+            352,
+            719,
+            435
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Math language: $\\exists\\alpha_{0}>0$ s.t. $x+\\alpha d\\in\\Omega,\\forall\\alpha\\in[0,\\alpha_{0}]$",
+        "bbox": [
+            52,
+            447,
+            463,
+            486
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/cd0b51ee38831e5409aa8a7bbf8e66685b10426f9d9cb6dac5e08293add809ba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            317,
+            490,
+            456,
+            607
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "② $\\nabla f(x^{*}) \\cdot d$ : inner product of two vectors.",
+        "bbox": [
+            52,
+            631,
+            395,
+            670
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Also write as $\\boldsymbol{d}^{\\top}\\nabla f(\\boldsymbol{x}^{*})$ or $(\\nabla f(\\boldsymbol{x}^{*}),\\boldsymbol{d})$ , $\\langle\\nabla f(\\boldsymbol{x}^{*}),\\boldsymbol{d}\\rangle$",
+        "bbox": [
+            52,
+            678,
+            518,
+            721
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{\\partial f}{\\partial d} \\triangleq \\nabla f \\cdot d$ is the directional derivative when $\\| d \\| = 1$",
+        "bbox": [
+            55,
+            721,
+            465,
+            768
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• ③ Define $\\phi(\\alpha) = f(x^{*} + \\alpha d)$ for $\\alpha \\in [0, \\alpha_{0}]$ , then",
+        "bbox": [
+            35,
+            776,
+            456,
+            815
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (0) = \\left\\{ \\begin{array}{l l} \\lim _ {\\alpha \\to 0 ^ {+}} \\frac {\\phi (\\alpha) - \\phi (0)}{\\alpha} = \\lim _ {\\alpha \\to 0 ^ {+}} \\frac {f (\\boldsymbol {x} ^ {*} + \\alpha \\boldsymbol {d}) - f (\\boldsymbol {x} ^ {*})}{\\alpha} & \\text {Def} \\\\ \\nabla f \\left(\\boldsymbol {x} ^ {*}\\right) \\cdot \\boldsymbol {d} & \\text {Chain rule} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            815,
+            562,
+            937
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 / 50",
+        "bbox": [
+            951,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ch 7. One-Dimensional Search Methods",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            540,
+            109
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/8064a768c4e323c1e715ba435260cfccaa0effcf46e83bbbdbfecca9239cad33.jpg",
+        "image_caption": [
+            "Figure 7.1 Unimodal function."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            222,
+            156,
+            520,
+            443
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.1 Introduction",
+        "bbox": [
+            17,
+            576,
+            143,
+            615
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.2 Golden Section Search",
+        "bbox": [
+            19,
+            627,
+            218,
+            662
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.3 Fibonacci Method",
+        "bbox": [
+            19,
+            674,
+            187,
+            713
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.4 Bisection Method",
+        "bbox": [
+            19,
+            721,
+            183,
+            760
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.5 Newton's Method",
+        "bbox": [
+            19,
+            768,
+            185,
+            807
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.6 Secant Method",
+        "bbox": [
+            19,
+            815,
+            167,
+            854
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.7 Bracketing",
+        "bbox": [
+            19,
+            866,
+            134,
+            905
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.8 Line Search in Multidimensional Optimization",
+        "bbox": [
+            17,
+            913,
+            388,
+            952
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods",
+        "bbox": [
+            13,
+            101,
+            373,
+            160
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梯度方向是函数值增大最快的方向",
+        "text_level": 2,
+        "bbox": [
+            15,
+            298,
+            386,
+            352
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text { Apply   to } (\\nabla f, \\boldsymbol {d}) \\leqslant \\| \\nabla f \\| \\cdot \\| \\boldsymbol {d} \\| = \\| \\nabla f \\| \\text { if } \\| \\boldsymbol {d} \\| = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            15,
+            419,
+            547,
+            474
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Equality holds $\\Leftrightarrow \\pmb{d} = \\frac{\\nabla f}{\\|\\nabla f\\|}$",
+        "bbox": [
+            17,
+            529,
+            302,
+            603
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Therefore $-\\nabla f(\\boldsymbol{x})$ is the max-rate descending direction. When $\\nabla f(\\boldsymbol{x}) \\neq \\mathbf{0}$ , for $\\alpha$ sufficiently small, $f(\\boldsymbol{x} - \\alpha \\nabla f(\\boldsymbol{x})) < f(\\boldsymbol{x})$ .",
+        "bbox": [
+            15,
+            658,
+            977,
+            776
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Topic 3: Gradient Methods",
+        "text_level": 2,
+        "bbox": [
+            13,
+            101,
+            370,
+            160
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Gradient Descent Algorithm:",
+        "bbox": [
+            17,
+            180,
+            231,
+            215
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Start from $x^{0}$ for $k = 0, 1, 2, \\cdots$ till converge",
+        "bbox": [
+            17,
+            262,
+            355,
+            301
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {x} ^ {k + 1} = \\boldsymbol {x} ^ {k} - \\alpha_ {k} \\nabla f (\\boldsymbol {x} ^ {k})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            17,
+            341,
+            209,
+            396
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Ideal condition: $\\left\\| \\nabla f(x^k)\\right\\| = 0$",
+        "bbox": [
+            17,
+            431,
+            260,
+            490
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Practical conditions:",
+        "bbox": [
+            17,
+            525,
+            172,
+            560
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "gradient condition $\\left\\| \\nabla f\\left(\\boldsymbol{x}^k\\right)\\right\\| <  \\varepsilon$",
+        "bbox": [
+            17,
+            603,
+            275,
+            662
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "success objective condition $\\frac{|f(x^{k+1}) - f(x^k)|}{|f(x^k)|} < \\varepsilon$",
+        "bbox": [
+            15,
+            690,
+            368,
+            764
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "successive point difference $\\frac{\\left\\|\\boldsymbol{x}^{k+1}-\\boldsymbol{x}^{k}\\right\\|}{\\left\\|\\boldsymbol{x}^{k}\\right\\|}<\\varepsilon$",
+        "bbox": [
+            17,
+            800,
+            328,
+            870
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Replace denominator by $\\max\\left\\{1,|f\\left(\\boldsymbol{x}^{k}\\right)|\\right\\}$ or $\\max\\{1,\\|\\boldsymbol{x}^{k}\\|\\}$ to avoid division by tiny numbers.",
+        "bbox": [
+            17,
+            905,
+            706,
+            960
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梯度下降法的性质：相邻方向垂直",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            492,
+            109
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {k} = \\arg \\min _ {\\alpha \\geq 0} f (x _ {k} - \\alpha \\nabla f (x _ {k})).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            459,
+            152,
+            640,
+            192
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "令",
+        "bbox": [
+            289,
+            235,
+            306,
+            258
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi (\\alpha) = f (x _ {k} - \\alpha \\nabla f (x _ {k})).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            476,
+            301,
+            624,
+            329
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "由于 $\\alpha_{k}$ 是内部极小点，所以",
+        "bbox": [
+            289,
+            368,
+            434,
+            400
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "利用链式法则，",
+        "bbox": [
+            289,
+            509,
+            364,
+            533
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (\\alpha_ {k}) = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            516,
+            435,
+            584,
+            466
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi^ {\\prime} (\\alpha) = - \\nabla f (x _ {k} - \\alpha \\nabla f (x _ {k})) ^ {T} \\nabla f (x _ {k}).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            439,
+            572,
+            662,
+            603
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "代入 $\\alpha_{k}$ ，得到",
+        "bbox": [
+            289,
+            647,
+            366,
+            670
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n- \\nabla f (x _ {k + 1}) ^ {T} \\nabla f (x _ {k}) = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            476,
+            709,
+            624,
+            741
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "因此",
+        "bbox": [
+            289,
+            784,
+            317,
+            807
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boxed {\\nabla f (x _ {k + 1}) ^ {T} \\nabla f (x _ {k}) = 0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            483,
+            850,
+            620,
+            890
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 / 50",
+        "bbox": [
+            951,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "上次作业",
+        "bbox": [
+            15,
+            50,
+            145,
+            109
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "编写一个完整的最速下降算法，",
+        "bbox": [
+            17,
+            250,
+            346,
+            301
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1. 定义 $f(\\pmb{x})$",
+        "bbox": [
+            19,
+            368,
+            158,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "2. 给出 $x^{*}$ 的算法",
+        "bbox": [
+            17,
+            490,
+            216,
+            537
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "运行时，输入 $f(x)$ 和 $x_{0}$",
+        "bbox": [
+            17,
+            607,
+            293,
+            658
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "输出 $x^{*}$",
+        "bbox": [
+            17,
+            729,
+            105,
+            776
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 / 50",
+        "bbox": [
+            949,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [
+            "Topic 4: Newton's method"
+        ],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\nConsider  $\\min_{x\\in\\mathbb{R}^{n}}f(x)$ $\\cdot n=1$ $x_{k+1}=x_{k}-\\left(f''(x_{k})\\right)^{-1}f'(x_{k})$ $\\cdot n&gt;1$ $x_{k+1}=x_{k}-\\left(\\nabla^{2}f(x_{k})\\right)^{-1}\\nabla f(x_{k})$ \n\nAnother form ① solve  $\\nabla^{2}f(x_{k})d_{k}=-\\nabla f(x_{k})$ \n\n② update  $x_{k+1}=x_{k}+d_{k}$ \n\nRemark. Do not require  $\\nabla^{2}f(x_{k})&gt;0$  only needs non-singular (invertible).\n\nNamely, Newton's method also works for non-convex optimization problems.\n\nbut may not find local min.\n</div>",
+        "bbox": [
+            77,
+            203,
+            931,
+            968
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/1db2b48ff048cce525d34271f324142d744f78d88f32f59ad83a94171d766045.jpg",
+        "image_caption": [
+            "Topic 4: Newton's method"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            141,
+            207,
+            827,
+            937
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "今天：Lagrange 乘子法",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            339,
+            113
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A series of steps by which you could get the answer if you didn't understand what you were trying to do.",
+        "bbox": [
+            15,
+            321,
+            977,
+            439
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Feynman",
+        "bbox": [
+            880,
+            505,
+            977,
+            556
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "即使你不明白自己在做什么，也能通过一系列步骤得到答案。",
+        "bbox": [
+            17,
+            623,
+            662,
+            678
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Video: Lagrange 乘子法 (Constrained Optimization)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            719,
+            113
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1. Constrained optimization introduction",
+        "bbox": [
+            17,
+            133,
+            370,
+            172
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=vwUV2IDLP8Q",
+        "bbox": [
+            17,
+            192,
+            481,
+            231
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2. Lagrange multipliers, using tangency to solve constrained optimization",
+        "bbox": [
+            17,
+            290,
+            642,
+            329
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=yuqB-d5MjZA",
+        "bbox": [
+            17,
+            345,
+            481,
+            388
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3. Finishing the introduction to Lagrange multiplier example",
+        "bbox": [
+            17,
+            443,
+            536,
+            486
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=aep6lwPqm6I",
+        "bbox": [
+            17,
+            505,
+            479,
+            545
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "4. Meaning of Lagrange multiplier",
+        "bbox": [
+            17,
+            600,
+            315,
+            639
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=m-G3K2GPmEQ",
+        "bbox": [
+            17,
+            658,
+            481,
+            698
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5. Proof for the meaning of Lagrange multipliers",
+        "bbox": [
+            17,
+            756,
+            437,
+            800
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=b9B2FZ5cqbM",
+        "bbox": [
+            17,
+            811,
+            481,
+            854
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "约 30min",
+        "bbox": [
+            19,
+            913,
+            103,
+            952
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "问题引入",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            145,
+            109
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_body": "<div class=\"mineru-algorithm\" style=\"white-space: pre-wrap; font-family:monospace;\">\n很多极值问题, 目标函数的自变量不能在其定义域上自由变化, 而是要受到某些条件的约束.\n例 (1)\n要设计一个容积为 V 的长方形无盖水箱, 试问长、宽、高各等于多少时, 可使得表面积最小?\n若设长、宽、高各等于 x, y, z, 则\n目标函数:  $S = 2z(x + y) + xy$ ;\n约束条件: xyz = V.\n</div>",
+        "bbox": [
+            15,
+            282,
+            977,
+            698
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "定义（极值（最值））",
+        "bbox": [
+            17,
+            98,
+            209,
+            145
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "设目标函数为",
+        "bbox": [
+            19,
+            156,
+            136,
+            196
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny = f \\left(x _ {1}, x _ {2}, \\dots , x _ {n}\\right), \\quad \\left(x _ {1}, x _ {2}, \\dots , x _ {n}\\right) \\in D \\subset \\mathbb {R} ^ {n};\n$$",
+        "text_format": "latex",
+        "bbox": [
+            172,
+            203,
+            600,
+            250
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "约束条件为如下一组方程:",
+        "bbox": [
+            17,
+            274,
+            236,
+            317
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Phi : \\varphi_ {k} (x _ {1}, x _ {2}, \\dots , x _ {n}) = 0, \\quad k = 1, 2, \\dots , m \\quad (m <   n).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            158,
+            360,
+            615,
+            403
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "为简便起见, 记 $P = (x_{1}, x_{2}, \\cdots, x_{n})$ , 并设",
+        "bbox": [
+            19,
+            443,
+            366,
+            486
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Omega = \\left\\{P \\mid P \\in D, \\varphi_ {k} (P) = 0, k = 1, 2, \\dots , m \\right\\}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            192,
+            525,
+            571,
+            572
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "若存在 $P_0 \\in \\Omega, \\delta > 0$ , 使得",
+        "bbox": [
+            17,
+            611,
+            242,
+            654
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf \\left(P _ {0}\\right) \\leq f (P), \\quad \\forall P \\in \\Omega \\cap U \\left(P _ {0}; \\delta\\right) (\\text {或} \\forall P \\in \\Omega),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            181,
+            694,
+            587,
+            741
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "则称 $f(P_0)$ 是 $f(P)$ 在约束条件 $\\Phi$ 之下的极小值 (或最小值), 称 $P_0$ 是相应的极小值点 (或最小值点).",
+        "bbox": [
+            15,
+            780,
+            759,
+            874
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "类似地, 可定义条件极大 (或最大) 值.",
+        "bbox": [
+            17,
+            882,
+            328,
+            925
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "拉格朗日乘数法",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            242,
+            113
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "拉格朗日乘数法探源 先从 $n = 2, m = 1$ 的最简情形说起，即设目标函数与约束条件分别为",
+        "bbox": [
+            15,
+            168,
+            977,
+            286
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nz = f (x, y) \\quad {\\text {与}} \\quad \\varphi (x, y) = 0.\\tag{1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            333,
+            301,
+            660,
+            356
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "若由 $\\varphi(x, y) = 0$ 确定了隐函数 $y = y(x)$ ，则使得目标函数成为一元函数 $z = f(x, y(x))$ 。再由",
+        "bbox": [
+            15,
+            447,
+            977,
+            564
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\mathrm{d} z}{\\mathrm{d} x} = f _ {x} + f _ {y} \\cdot \\frac {\\mathrm{d} y}{\\mathrm{d} x} = f _ {x} - f _ {y} \\cdot \\frac {\\varphi_ {x}}{\\varphi_ {y}} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            552,
+            704,
+            662
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "求出稳定点 $P_{0}(x_{0},y_{0})=(x_{0},y(x_{0}))$ ，在此点处满足",
+        "bbox": [
+            15,
+            682,
+            562,
+            737
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left. (f _ {x} \\varphi_ {y} - f _ {y} \\varphi_ {x}) \\right| _ {P _ {0}} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            792,
+            615,
+            854
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left. \\left(f _ {x} \\varphi_ {y} - f _ {y} \\varphi_ {x}\\right) \\right| _ {P _ {0}} = 0, \\quad \\text { i   .   e   .   , } \\quad \\frac {f _ {x}}{f _ {y}} = \\frac {\\varphi_ {x}}{\\varphi_ {y}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            289,
+            66,
+            708,
+            176
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "而 f 的梯度为 $(f_{x}, f_{y})$ ， $\\varphi$ 的梯度为 $(\\varphi_{x}, \\varphi_{y})$ ，所以 $(f_{x}, f_{y})$ 与 $(\\varphi_{x}, \\varphi_{y})$ 成比例。",
+        "bbox": [
+            15,
+            184,
+            847,
+            243
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "或者说，表示 $f$ 的等值线",
+        "bbox": [
+            15,
+            305,
+            298,
+            356
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x, y) = z _ {0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            432,
+            372,
+            562,
+            423
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "与曲线 $\\varphi(x,y)=0$ 在点 $P_{0}$ 有公共切线，见图.",
+        "bbox": [
+            17,
+            450,
+            509,
+            505
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/77bbca9cfcf26839cefb238fabbf8383f3671724a4df294b208327b199337b20.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            19,
+            552,
+            399,
+            996
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "由此推知: 存在比例常数 $\\lambda_{0}$ ，满足 $(f_{x}(P_{0}), f_{y}(P_{0})) + \\lambda_{0}(\\varphi_{x}(P_{0}), \\varphi_{y}(P_{0})) = (0, 0)$ .",
+        "bbox": [
+            15,
+            23,
+            896,
+            78
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "这又表示: 对于函数",
+        "bbox": [
+            15,
+            145,
+            238,
+            196
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL (x, y, \\lambda) = f (x, y) + \\lambda \\varphi (x, y),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            211,
+            662,
+            266
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "在点 $(x_{0},y_{0},\\lambda_{0})$ 处恰好满足:",
+        "bbox": [
+            15,
+            290,
+            328,
+            345
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left. \\left(f _ {x} \\varphi_ {y} - f _ {y} \\varphi_ {x}\\right) \\right| _ {P _ {0}} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            356,
+            615,
+            419
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "即",
+        "bbox": [
+            17,
+            490,
+            50,
+            541
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} L _ {x} = f _ {x} (x, y) + \\lambda \\varphi_ {x} (x, y) = 0, \\\\ L _ {y} = f _ {y} (x, y) + \\lambda \\varphi_ {y} (x, y) = 0, \\\\ L _ {\\lambda} = \\varphi (x, y) = 0. \\end{array} \\right.\\tag{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            545,
+            668,
+            733
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "也就是说, (2) 式是函数 $L(x, y, \\lambda)$ 在其极值点处所满足的必要条件.",
+        "bbox": [
+            15,
+            752,
+            728,
+            803
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "由此产生了一个重要思想:",
+        "bbox": [
+            17,
+            870,
+            295,
+            921
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "拉格朗日乘数法 对于前面定义中所设的一般目标函数和约束条件组，应引入辅助函数",
+        "bbox": [
+            15,
+            239,
+            922,
+            290
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} L \\left(x _ {1}, x _ {2}, \\dots , x _ {n}, \\lambda_ {1}, \\lambda_ {2}, \\dots , \\lambda_ {m}\\right) \\\\ = f \\left(x _ {1}, x _ {2}, \\dots , x _ {n}\\right) + \\sum_ {k = 1} ^ {m} \\lambda_ {k} \\varphi_ {k} \\left(x _ {1}, x _ {2}, \\dots , x _ {n}\\right). \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            337,
+            754,
+            533
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "称此函数为拉格朗日函数, 其中 $\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{m}$ 称为拉格朗日乘数.",
+        "bbox": [
+            17,
+            576,
+            715,
+            627
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "拉格朗日乘数法应用举例",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            368,
+            113
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "例 (1)",
+        "bbox": [
+            19,
+            172,
+            92,
+            231
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "求 $S = 2(xz + yz) + xy$ 在约束条件 $V = xyz$ 下的极值.",
+        "bbox": [
+            17,
+            250,
+            609,
+            301
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "解 此例 以往的解法是从条件式解出显函数, 例如 $z = \\frac{V}{xy}$ , 代入目标函数后, 转而求解",
+        "bbox": [
+            15,
+            407,
+            918,
+            470
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nS = \\frac {2 V}{x y} (x + y) + x y\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            505,
+            611,
+            615
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "的普通极值问题.",
+        "bbox": [
+            17,
+            650,
+            198,
+            705
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "无法将条件式作显化处理时，此法就无法进行了.",
+        "bbox": [
+            17,
+            772,
+            527,
+            823
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "现在作拉格朗日函数",
+        "bbox": [
+            15,
+            58,
+            242,
+            109
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "并求解以下方程组:",
+        "bbox": [
+            15,
+            219,
+            225,
+            270
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL = 2 (x z + y z) + x y + \\lambda (x y z - V),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            306,
+            125,
+            688,
+            180
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} L _ {x} = 2 z + y + \\lambda y z = 0 \\\\ L _ {y} = 2 z + x + \\lambda x z = 0 \\\\ L _ {z} = 2 (x + y) + \\lambda x y = 0, \\\\ L _ {\\lambda} = x y z - V = 0. \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            266,
+            642,
+            529
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "为消去 $\\lambda$ ，将前三式分别乘以 $x,y,z$ ，则得",
+        "bbox": [
+            17,
+            556,
+            459,
+            611
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} 2 x z + x y = - \\lambda x y z \\\\ 2 y z + x y = - \\lambda x y z \\\\ 2 z (x + y) = - \\lambda x y z \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            650,
+            611,
+            847
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "两两相减后立即得出 x = y = 2z，再代入第四式，得",
+        "bbox": [
+            15,
+            74,
+            565,
+            125
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx = \\sqrt [ 3 ]{2 V} = y, z = \\sqrt [ 3 ]{2 V} / 2.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            176,
+            637,
+            239
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "注 由以上结果还可以得到一个不等式 (这是获得不等式的一种好方法). 那就是具体算出目标函数 (表面积) 的最小值:",
+        "bbox": [
+            15,
+            345,
+            977,
+            466
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nS _ {\\mathrm{min}} = 2 \\cdot \\frac {\\sqrt [ 3 ]{2 V}}{2} (\\sqrt [ 3 ]{2 V} + \\sqrt [ 3 ]{2 V}) + (\\sqrt [ 3 ]{2 V}) ^ {2} = 3 \\sqrt [ 3 ]{4 V ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            222,
+            505,
+            774,
+            611
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "于是有 $2z(x + y) + xy \\geq 3\\sqrt[3]{4V^2}$ , 其中 $V = xyz$ . 消去 $V$ 后便得不等式",
+        "bbox": [
+            15,
+            650,
+            774,
+            709
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_footnote",
+        "text": "$2z(x + y) + xy \\geq 3\\sqrt[3]{4(xyz)^{2}}, \\quad x > 0, y > 0, z > 0$",
+        "bbox": [
+            227,
+            749,
+            768,
+            827
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "例 (2)",
+        "bbox": [
+            19,
+            62,
+            92,
+            121
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "抛物面 $z = x^{2} + y^{2}$ 被平面 $x + y + z = 1$ 截成一个椭圆．求该椭圆到原点的最长和最短距离.",
+        "bbox": [
+            15,
+            137,
+            977,
+            258
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "解 这个问题的目标函数是 $f(x, y, z) = \\sqrt{x^2 + y^2 + z^2}$ 在条件 $z = x^2 + y^2$ 及 $x + y + z = 1$ 下的最值问题.",
+        "bbox": [
+            15,
+            360,
+            977,
+            486
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "为了计算方便, 把目标函数改取距离的平方 (这是等价的), 即设",
+        "bbox": [
+            17,
+            549,
+            693,
+            603
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL = x ^ {2} + y ^ {2} + z ^ {2} + \\lambda (x ^ {2} + y ^ {2} - z) + \\mu (x + y + z - 1).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            647,
+            788,
+            725
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "求解以下方程组:",
+        "bbox": [
+            17,
+            768,
+            200,
+            819
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left. \\begin{array}{l} L _ {x} = 2 x + 2 \\lambda x + \\mu = 0, \\\\ L _ {y} = 2 y + 2 \\lambda y + \\mu = 0, \\\\ L _ {z} = 2 z - \\lambda + \\mu = 0, \\\\ L _ {\\lambda} = x ^ {2} + y ^ {2} - z = 0, \\\\ L _ {\\mu} = x + y + z - 1 = 0. \\end{array} \\right\\} \\Rightarrow \\left\\{ \\begin{array}{r l} & 2 (x + \\lambda x) \\\\ & = 2 (y + \\lambda y) \\\\ & = 2 z - \\lambda . \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            141,
+            735,
+            478
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "由此又得 $(1 + \\lambda)(x - y) = 0 \\Rightarrow x = y$ . 再代入条件式, 继而得到: (这里 $\\lambda \\neq -1$ , 否则将无解)",
+        "bbox": [
+            15,
+            501,
+            980,
+            623
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {2 x ^ {2} + 2 x - 1 = 0} \\\\ {x = y = \\frac {- 1 \\pm \\sqrt {3}}{2}, z = 1 - (- 1 \\pm \\sqrt {3}) = 2 \\mp \\sqrt {3}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            623,
+            759,
+            807
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "这是拉格朗日函数的稳定点. 由于所求问题存在最大值和最小值, 所以",
+        "bbox": [
+            15,
+            156,
+            754,
+            207
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} x ^ {2} + y ^ {2} + z ^ {2} = \\frac {2 (- 1 \\pm \\sqrt {3}) ^ {2}}{4} + (2 \\mp \\sqrt {3}) ^ {2} \\\\ = \\left\\{ \\begin{array}{l l} \\frac {1}{2} (1 - 2 \\sqrt {3} + 3) + 4 - 4 \\sqrt {3} + 3 = 9 - 5 \\sqrt {3}, \\\\ \\frac {1}{2} (1 + 2 \\sqrt {3} + 3) + 4 + 4 \\sqrt {3} + 3 = 9 + 5 \\sqrt {3}. \\end{array} \\right. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            243,
+            746,
+            501
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "故原点至已知曲线上点的最小距离与最大距离分别为",
+        "bbox": [
+            15,
+            541,
+            578,
+            592
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nd _ {\\mathrm{min}} = \\sqrt {9 - 5 \\sqrt {3}}, d _ {\\mathrm{max}} = \\sqrt {9 + 5 \\sqrt {3}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            631,
+            708,
+            713
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "例 (3)",
+        "bbox": [
+            19,
+            0,
+            92,
+            54
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "已知圆柱面",
+        "bbox": [
+            19,
+            66,
+            147,
+            121
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx ^ {2} + y ^ {2} + z ^ {2} - x y - y z - z x - 1 = 0,\\tag{4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            298,
+            125,
+            695,
+            188
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "它与平面 $x + y - z = 0$ 相交得一椭圆，试求此椭圆的面积.",
+        "bbox": [
+            17,
+            223,
+            637,
+            282
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "分析",
+        "bbox": [
+            17,
+            380,
+            72,
+            435
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(i) 如果能求得该椭圆的长、短半轴 a 与 b，则椭圆面积为 $\\pi ab$ ;",
+        "bbox": [
+            17,
+            501,
+            677,
+            560
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(ii) 由方程 (4)，此圆柱面关于坐标原点是对称的，故此圆柱面的中心轴是通过坐标原点的某一直线；",
+        "bbox": [
+            15,
+            619,
+            977,
+            741
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "(iii) 因为所给平面也是通过坐标原点的，所以此平面上的椭圆截线必以坐标原点为其中心点.",
+        "bbox": [
+            15,
+            807,
+            977,
+            929
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "26 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "解 由以上分析, 自原点至椭圆上任意点 $(x, y, z)$ 的距离 $d = \\sqrt{x^2 + y^2 + z^2}$ 之最大、小值, 就是该椭圆的长、短半轴.",
+        "bbox": [
+            15,
+            137,
+            977,
+            258
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(说明: 本例的题型与例 2 相类似, 但在具体计算策略上将有较大差异.)",
+        "bbox": [
+            17,
+            325,
+            761,
+            376
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "设拉格朗日函数为",
+        "bbox": [
+            17,
+            443,
+            218,
+            494
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} L = x ^ {2} + y ^ {2} + z ^ {2} + \\lambda (x + y - z) \\\\ - \\mu \\left(x ^ {2} + y ^ {2} + z ^ {2} - x y - y z - z x - 1\\right) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            242,
+            537,
+            750,
+            690
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "并令",
+        "bbox": [
+            17,
+            729,
+            75,
+            780
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ L _ {x} = 2 x + \\lambda - \\mu (2 x - y - z) = 0, \\right.\\tag{5}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            101,
+            573,
+            160
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL _ {y} = 2 y + \\lambda - \\mu (2 y - z - x) = 0,\\tag{6}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            168,
+            573,
+            223
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL _ {z} = 2 z - \\lambda - \\mu (2 z - x - y) = 0,\\tag{7}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            286,
+            235,
+            573,
+            286
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL _ {\\lambda} = x + y - z = 0,\\tag{8}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            289,
+            298,
+            456,
+            349
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\lfloor L _ {\\mu} = - \\left(x ^ {2} + y ^ {2} + z ^ {2} - x y - y z - z x - 1\\right) = 0. \\right.\\tag{9}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            356,
+            677,
+            419
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "对 (5), (6), (7) 三式分别乘以 $x, y, z$ 后相加, 得到",
+        "bbox": [
+            233,
+            501,
+            759,
+            556
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} 2 \\left(x ^ {2} + y ^ {2} + z ^ {2}\\right) + \\lambda (x + y - z) \\\\ - 2 \\mu \\left(x ^ {2} + y ^ {2} + z ^ {2} - x y - y z - z x\\right) = 0, \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            592,
+            715,
+            756
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "28 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "借助 (8), (9) 两式进行化简, 又得",
+        "bbox": [
+            15,
+            101,
+            370,
+            156
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\nd ^ {2} = x ^ {2} + y ^ {2} + z ^ {2} = \\mu .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            203,
+            620,
+            262
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "这说明 $d^{2}$ 的极值就是这里的 $\\mu$ (即 d 的极值就是 $\\sqrt{\\mu}$ ). 问题便转而去计算 $\\mu$ .",
+        "bbox": [
+            15,
+            321,
+            838,
+            376
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "为此先从 (5) - (8) 式消去 $\\lambda$ , 得到一个线性方程组:",
+        "bbox": [
+            17,
+            439,
+            558,
+            494
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l l} (2 - \\mu) x + 2 \\mu y + (2 - \\mu) z = 0 \\\\ 2 \\mu x + (2 - \\mu) y + (2 - \\mu) z = 0 \\\\ x + y - z = 0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            537,
+            671,
+            729
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "它有非零解 $(x, y, z)$ 的充要条件是",
+        "bbox": [
+            17,
+            776,
+            386,
+            827
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "29 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left| \\begin{array}{c c c} 2 - \\mu & 2 \\mu & 2 - \\mu \\\\ 2 \\mu & 2 - \\mu & 2 - \\mu \\\\ 1 & 1 & - 1 \\end{array} \\right| = - 3 \\mu^ {2} + 2 0 \\mu - 1 2 = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            184,
+            754,
+            376
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "即",
+        "bbox": [
+            17,
+            403,
+            52,
+            450
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mu^ {2} - \\frac {2 0}{3} \\mu + 4 = 0.\\tag{10}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            443,
+            596,
+            541
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "由前面讨论知道, 方程 (10) 的两个根 $\\mu_{1}, \\mu_{2}$ 就是 $d^{2}$ 的最大、小值, 即 $a^{2}$ 与 $b^{2}$ ; 而 $\\mu_{1} \\mu_{2} = 4$ , 于是",
+        "bbox": [
+            15,
+            560,
+            977,
+            678
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\nS = \\pi a b = \\pi \\sqrt {\\mu_ {1} \\mu_ {2}} = 2 \\pi .\\tag{0.1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            694,
+            635,
+            749
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "30 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "说明",
+        "text_level": 2,
+        "bbox": [
+            17,
+            125,
+            72,
+            176
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(i) 一旦由方程 (5)-(9) 能直接求得椭圆的长、短半轴, 那就不必再去计算椭圆的顶点坐标 $(x, y, z)$ 了, 这使解题过程简单了许多.",
+        "bbox": [
+            15,
+            243,
+            977,
+            364
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "(ii) 若用解析几何方法来处理本例的问题, 则需要先求出圆柱面的中心轴所在直线 $l: x = y = z$ , 再求出纬圆半径 $r = \\sqrt{\\frac{2}{3}}$ 和纬圆面积 $A = \\frac{2\\pi}{3}$ ; 还有平面 $x + y - z = 0$ 的法线与 $l$ 夹角的余弦",
+        "bbox": [
+            15,
+            427,
+            977,
+            615
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\cos \\theta = \\frac {(1 , 1 , 1) \\cdot (1 , 1 , - 1)}{\\sqrt {3} \\cdot \\sqrt {3}} = \\frac {1}{3}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            320,
+            603,
+            662,
+            717
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "然后根据面积投影关系 $A = S \\cos \\theta$ ，最后求得椭圆面积为 $S = \\frac{A}{\\cos \\theta} = \\frac{2\\pi}{3} / \\frac{1}{3} = 2\\pi$ .",
+        "bbox": [
+            15,
+            737,
+            871,
+            800
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "31 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Gamma : F (x, y) = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            235,
+            580,
+            290
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "证明: $\\Gamma$ 上任意两个相距最远点处的切线互相平行, 且垂直于这两点间的连线.",
+        "bbox": [
+            17,
+            325,
+            832,
+            380
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "证 由于 $\\Gamma$ 是光滑封闭曲线, 所以满足:",
+        "bbox": [
+            15,
+            482,
+            434,
+            537
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(i) F 在一个包含 $\\Gamma$ 的开域内有连续的一阶偏导数, 且 $F_{x}^{2} + F_{y}^{2} \\neq 0$ ;",
+        "bbox": [
+            15,
+            600,
+            743,
+            662
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "(ii) 在 $\\Gamma$ 上必有相距最远的点.",
+        "bbox": [
+            17,
+            721,
+            342,
+            776
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "32 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "设 $P_{0}(x_{0},y_{0})$ , $Q_{0}(u_{0},v_{0})$ 为 $\\Gamma$ 上相距最远的两点. 题目转化为:",
+        "bbox": [
+            15,
+            62,
+            690,
+            117
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "求目标函数",
+        "bbox": [
+            17,
+            184,
+            147,
+            235
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x, y, u, v) = (x - u) ^ {2} + (y - v) ^ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            320,
+            243,
+            677,
+            301
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "在约束条件",
+        "bbox": [
+            17,
+            341,
+            147,
+            392
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (x, y) = 0, F (u, v) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            370,
+            407,
+            626,
+            462
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "之下的极大值 $f(x_{0}, y_{0}, u_{0}, v_{0})$ .",
+        "bbox": [
+            17,
+            498,
+            342,
+            552
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "于是由拉格朗日乘数法, 存在 $\\lambda_{0}, \\mu_{0}$ , 使点 $M_{0}$ 成为拉格朗日函数",
+        "bbox": [
+            17,
+            619,
+            701,
+            670
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL = (x - u) ^ {2} + (y - v) ^ {2} + \\lambda F (x, y) + \\mu F (u, v)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            251,
+            721,
+            743,
+            780
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "的稳定点. 从而满足",
+        "bbox": [
+            17,
+            839,
+            236,
+            890
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "33 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{r l} 2 (x _ {0} - u _ {0}) + \\lambda_ {0} F _ {x} (x _ {0}, y _ {0}) & = 0 \\\\ 2 (y _ {0} - v _ {0}) + \\lambda_ {0} F _ {y} (x _ {0}, y _ {0}) & = 0 \\\\ - 2 (x _ {0} - u _ {0}) + \\mu_ {0} F _ {u} (u _ {0}, v _ {0}) & = 0 \\\\ - 2 (y _ {0} - v _ {0}) + \\mu_ {0} F _ {v} (u _ {0}, v _ {0}) & = 0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            121,
+            682,
+            384
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "由前两式与后两式分别得到",
+        "bbox": [
+            17,
+            411,
+            315,
+            462
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} (x _ {0} - u _ {0}, y _ {0} - v _ {0}) / / (F _ {x}, F _ {y}) | _ {P _ {0}}, \\\\ (x _ {0} - u _ {0}, y _ {0} - v _ {0}) / / (F _ {u}, F _ {v}) | _ {Q _ {0}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            509,
+            671,
+            650
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "前者表示 $\\overline{P_0Q_0}$ 与 $\\Gamma$ 在 $P_0$ 的切线垂直, 后者表示 $\\overline{P_0Q_0}$ 与 $\\Gamma$ 在 $Q_0$ 的切线垂直. 所以 $\\Gamma$ 在 $P_0, Q_0$ 两点处的切线互相平行, 且垂直于 $\\overline{P_0Q_0}$ .",
+        "bbox": [
+            15,
+            690,
+            865,
+            870
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "34 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "今天：含有不等式的 Constrained Optimization",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            644,
+            113
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "The Karush-Kuhn-Tucker (KKT) Conditions",
+        "bbox": [
+            17,
+            278,
+            481,
+            325
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=uh1Dk68cfWs&t=606s (2'30\"开始)",
+        "bbox": [
+            15,
+            396,
+            807,
+            450
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "\\- 引入 $\\max_{u\\geq 0}ux$ - Dual  \n- KKT",
+        "bbox": [
+            41,
+            525,
+            207,
+            733
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "35 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "性质: Primal ≥ Dual",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            304,
+            113
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "原问题: $\\min_{x}\\max_{\\lambda,\\nu}L(x,\\lambda,\\nu)$ s.t. $\\lambda \\geq 0$",
+        "bbox": [
+            116,
+            176,
+            355,
+            301
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "对偶问题： $\\max_{\\pmb{\\lambda},\\pmb{\\nu}}g(\\pmb {\\lambda},\\pmb {\\nu}) = \\max_{\\pmb {\\lambda},\\pmb {\\nu}}\\min_{x}L(\\pmb {x},\\pmb {\\lambda},\\pmb {\\nu})$ s.t. $\\pmb {\\lambda}\\geq \\mathbf{0}$",
+        "bbox": [
+            558,
+            176,
+            944,
+            301
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) = f _ {0} (\\boldsymbol {x}) + \\sum \\lambda_ {i} f _ {i} (\\boldsymbol {x}) + \\sum v _ {i} h _ {i} (\\boldsymbol {x})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            356,
+            675,
+            439
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\max _ {\\boldsymbol {\\lambda}, \\boldsymbol {v}} L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) \\geq L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) \\geq \\min _ {\\boldsymbol {x}} L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            521,
+            651,
+            588
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA (\\boldsymbol {x}) = \\max _ {\\boldsymbol {\\lambda}, \\boldsymbol {v}} L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) \\geq L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) \\geq \\min _ {\\boldsymbol {x}} L (\\boldsymbol {x}, \\boldsymbol {\\lambda}, \\boldsymbol {v}) = I (\\boldsymbol {\\lambda}, \\boldsymbol {v})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            214,
+            623,
+            732,
+            690
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA (\\boldsymbol {x}) \\geq \\min _ {\\boldsymbol {x}} A (\\boldsymbol {x}) \\geq \\max _ {\\boldsymbol {\\lambda}, \\boldsymbol {v}} I (\\boldsymbol {\\lambda}, \\boldsymbol {v}) \\geq I (\\boldsymbol {\\lambda}, \\boldsymbol {v})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            807,
+            673,
+            874
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP ^ {*} = \\min _ {\\boldsymbol {x}} A (\\boldsymbol {x}) \\geq \\max _ {\\boldsymbol {\\lambda}, \\boldsymbol {v}} I (\\boldsymbol {\\lambda}, \\boldsymbol {v}) = D ^ {*}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            335,
+            909,
+            642,
+            976
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "36 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "KKT Conditions",
+        "text_level": 2,
+        "bbox": [
+            13,
+            50,
+            231,
+            109
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Given general problem",
+        "bbox": [
+            132,
+            141,
+            381,
+            196
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} \\min _ {x \\in \\mathbb {R} ^ {n}} f (x) \\\\ \\text { subject   to } h _ {i} (x) \\leq 0, i = 1, \\ldots m \\\\ \\ell_ {j} (x) = 0, j = 1, \\ldots r \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            243,
+            693,
+            470
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "The Karush-Kuhn-Tucker conditions or KKT conditions are:",
+        "bbox": [
+            132,
+            560,
+            836,
+            611
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n0 \\in \\partial f (x) + \\sum_ {i = 1} ^ {m} u _ {i} \\partial h _ {i} (x) + \\sum_ {j = 1} ^ {r} v _ {j} \\partial \\ell_ {j} (x)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            154,
+            623,
+            637,
+            772
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "(stationarity)",
+        "bbox": [
+            728,
+            662,
+            860,
+            721
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "\\- $u_{i} \\cdot h_{i}(x) = 0$ for all $i$ (complementary slackness)",
+        "bbox": [
+            156,
+            780,
+            863,
+            839
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "\\- $h_i(x) \\leq 0$ , $\\ell_j(x) = 0$ for all $i, j$ (primal feasibility)",
+        "bbox": [
+            156,
+            850,
+            863,
+            909
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "\\- $u_{i} \\geq 0$ for all $i$",
+        "bbox": [
+            158,
+            921,
+            353,
+            976
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "(dual feasibility)",
+        "bbox": [
+            697,
+            921,
+            860,
+            976
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "37 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "例子 1",
+        "bbox": [
+            13,
+            50,
+            110,
+            113
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "解：化成标准形式",
+        "bbox": [
+            15,
+            282,
+            220,
+            337
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "求解",
+        "bbox": [
+            17,
+            482,
+            75,
+            533
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "i.e.,",
+        "bbox": [
+            15,
+            635,
+            61,
+            678
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "交换，得",
+        "bbox": [
+            17,
+            784,
+            114,
+            835
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\{\\min _ {x} x ^ {2} \\mid 1 \\leq x \\leq 2 \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            196,
+            609,
+            270
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{\\min _ {x} x ^ {2} \\mid - x + 1 \\leq 0 \\text { and } x - 2 \\leq 0 \\right\\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            302,
+            345,
+            693,
+            415
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min _ {x} x ^ {2} + \\max _ {\\lambda_ {1} \\geq 0, \\lambda_ {2} \\geq 0} \\lambda_ {1} (- x + 1) + \\lambda_ {2} (x - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            545,
+            728,
+            627
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min _ {x} \\max _ {\\lambda_ {1} \\geq 0, \\lambda_ {2} \\geq 0} x ^ {2} + \\lambda_ {1} (- x + 1) + \\lambda_ {2} (x - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            690,
+            721,
+            776
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\max _ {\\lambda_ {1} \\geq 0, \\lambda_ {2} \\geq 0} \\min _ {x} x ^ {2} + \\lambda_ {1} (- x + 1) + \\lambda_ {2} (x - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            847,
+            728,
+            929
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "38 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "KKT Conditions",
+        "text_level": 2,
+        "bbox": [
+            11,
+            50,
+            231,
+            105
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "由 KKT, 则",
+        "bbox": [
+            17,
+            137,
+            147,
+            188
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "1. $\\nabla_{x}L = 0$ ，即 $2x - \\lambda_{1} + \\lambda_{2} = 0\\Rightarrow x^{*} = \\frac{\\lambda_{1} - \\lambda_{2}}{2}$",
+        "bbox": [
+            17,
+            250,
+            532,
+            313
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "2. $\\lambda_1(-x + 1) = 0$ ，且 $\\lambda_2(x - 2) = 0$",
+        "bbox": [
+            17,
+            321,
+            408,
+            376
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "3. $\\lambda_1\\geq 0,\\lambda_2\\geq 0$",
+        "bbox": [
+            17,
+            388,
+            209,
+            439
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "4. $-x + 1 \\leq 0, x - 2 \\leq 0$",
+        "bbox": [
+            17,
+            458,
+            289,
+            505
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "#2 为",
+        "bbox": [
+            17,
+            521,
+            90,
+            576
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l l} {\\lambda_ {1} = 0} \\\\ {\\lambda_ {2} = 0} \\end{array} \\right. \\quad \\text {或} \\left\\{ \\begin{array}{l l} {x = 1} \\\\ {x = 2} \\end{array} \\right. \\quad \\Rightarrow \\left\\{ \\begin{array}{l l} {\\lambda_ {1} = 0   \\mathrm{or}   x = 1} \\\\ {\\lambda_ {2} = 0   \\mathrm{or}   x = 2} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            236,
+            564,
+            735,
+            741
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "因此，由",
+        "bbox": [
+            17,
+            749,
+            112,
+            800
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l l} x = 1 & \\\\ \\lambda_ {2} = 0 & \\end{array} \\right. \\Rightarrow x ^ {*} = 1.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            381,
+            792,
+            615,
+            964
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "page_number",
+        "text": "39 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "例子 2",
+        "bbox": [
+            13,
+            50,
+            110,
+            113
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\min f (x _ {1}, x _ {2}) = x _ {1} ^ {2} + 2 x _ {2} ^ {2} - 4 x _ {1} - 4 x _ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            184,
+            701,
+            243
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{s.t.} \\quad g _ {1} (x _ {1}, x _ {2}) = x _ {1} + x _ {2} - 3 \\leq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            266,
+            668,
+            321
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\ng _ {2} \\left(x _ {1}, x _ {2}\\right) = 5 - x _ {1} - 2 x _ {2} \\leq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            355,
+            345,
+            679,
+            396
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "解；拉格朗日函数为：",
+        "bbox": [
+            15,
+            419,
+            251,
+            474
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL \\left(x _ {1}, x _ {2}, \\lambda_ {1}, \\lambda_ {2}\\right) = x _ {1} ^ {2} + 2 x _ {2} ^ {2} - 4 x _ {1} - 4 x _ {2} + \\lambda_ {1} \\left(x _ {1} + x _ {2} - 3\\right) + \\lambda_ {2} \\left(5 - x _ {1} - 2 x _ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            79,
+            517,
+            913,
+            576
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "对 $x_{1}$ 和 $x_{2}$ 求偏导得到的等式为：",
+        "bbox": [
+            15,
+            623,
+            381,
+            674
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {1}} = 2 x _ {1} - 4 + \\lambda_ {1} - \\lambda_ {2} = 0\\tag{0.2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            694,
+            657,
+            803
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {2}} = 4 x _ {2} - 4 + \\lambda_ {1} - 2 \\lambda_ {2} = 0\\tag{0.3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            807,
+            662,
+            913
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "40 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "例子 2 (续 1)",
+        "text_level": 2,
+        "bbox": [
+            13,
+            47,
+            211,
+            113
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text { i.e., } \\nabla f + \\lambda_ {1} \\nabla g _ {1} + \\lambda_ {2} \\nabla g _ {2} = \\binom{2 x _ {1} - 4}{4 x _ {2} - 4} + \\lambda_ {1} \\binom{1}{1} + \\lambda_ {2} \\binom{- 1}{- 2} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            215,
+            852,
+            368
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "另外， $\\lambda_{i}g_{i}=0 (i=1,2)$ . 所以，4个未知数，4个方程，",
+        "bbox": [
+            17,
+            388,
+            615,
+            443
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "注： $\\lambda_{i}g_{i}=0+KKT$ 条件中的不等式，具体含义为：",
+        "bbox": [
+            15,
+            509,
+            573,
+            560
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "1. 若 $\\lambda_1 = \\lambda_2 = 0$ ，则 $g_1 < 0, g_2 < 0$ ;",
+        "bbox": [
+            15,
+            627,
+            423,
+            678
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "2. 若 $\\lambda_1 = 0, \\lambda_2 > 0$ ，则 $g_1 < 0, g_2 = 0$ ;",
+        "bbox": [
+            15,
+            694,
+            448,
+            745
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "3. 若 $\\lambda_1 > 0, \\lambda_2 = 0$ ，则 $g_1 = 0, g_2 < 0$ ;",
+        "bbox": [
+            15,
+            760,
+            448,
+            811
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "4. 若 $\\lambda_{1}>0,\\lambda_{2}>0$ ，则 $g_{1}=0,g_{2}=0$",
+        "bbox": [
+            15,
+            827,
+            445,
+            878
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "41 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "例子 2 (续 2)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            47,
+            211,
+            113
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "无论哪种情形，主要是求解上面写的求导后的梯度方程，即：",
+        "bbox": [
+            15,
+            137,
+            660,
+            192
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {1}} = 2 x _ {1} - 4 + \\lambda_ {1} - \\lambda_ {2} = 0,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            211,
+            657,
+            317
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {2}} = 4 x _ {2} - 4 + \\lambda_ {1} - 2 \\lambda_ {2} = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            337,
+            662,
+            443
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "(i) 若 $\\lambda_1 = \\lambda_2 = 0$ ，则 $g_1 < 0, g_2 < 0$",
+        "bbox": [
+            15,
+            505,
+            419,
+            560
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "若 $\\lambda_1 = \\lambda_2 = 0$ ，则只需要求解 $x_{1}, x_{2}$ 即可：",
+        "bbox": [
+            15,
+            627,
+            487,
+            678
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {1}} = 2 x _ {1} - 4 = 0 \\Rightarrow x _ {1} = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            694,
+            655,
+            803
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial x _ {2}} = 4 x _ {2} - 4 = 0 \\Rightarrow x _ {2} = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            823,
+            655,
+            929
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "42 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "例子 2 (续 3)",
+        "text_level": 2,
+        "bbox": [
+            13,
+            47,
+            211,
+            113
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "那么 $x_{1} = 2, x_{2} = 1$ 就是其中的一个解了吗？",
+        "bbox": [
+            15,
+            200,
+            501,
+            250
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "还得验证下该解是否满足不等式 $g_{1}<0$ 和 $g_{2}<0$ 。",
+        "bbox": [
+            15,
+            321,
+            551,
+            372
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "将 $x_{1}=2, x_{2}=1$ 带入 $g_{1}$ 和 $g_{2}$ ，有：",
+        "bbox": [
+            15,
+            439,
+            415,
+            490
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\ng _ {1} (x _ {1}, x _ {2}) = x _ {1} + x _ {2} - 3 = 2 + 1 - 3 = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            280,
+            549,
+            715,
+            603
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\ng _ {2} (x _ {1}, x _ {2}) = 5 - x _ {1} - 2 x _ {2} = 5 - 2 - 2 = 1 > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            658,
+            743,
+            709
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "很遗憾，两个式子都无法使得 $g_{1} < 0$ 和 $g_{2} < 0$ ，故只能舍弃该解。",
+        "bbox": [
+            15,
+            803,
+            721,
+            854
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "43 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "例子 2 (续 4)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            47,
+            214,
+            113
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "(ii)、(iii) 类似，我们以（iii）为例",
+        "bbox": [
+            15,
+            133,
+            384,
+            192
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "(iii) 的情形为: $\\lambda_{1} > 0$ , $\\lambda_{2} = 0$ , 则 $g_{1} = 0$ , $g_{2} < 0$",
+        "bbox": [
+            15,
+            254,
+            554,
+            309
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} \\frac {\\partial L}{\\partial x _ {1}} = 2 x _ {1} - 4 + \\lambda_ {1} - \\lambda_ {2} = 0 \\\\ \\frac {\\partial L}{\\partial x _ {2}} = 4 x _ {2} - 4 + \\lambda_ {1} - 2 \\lambda_ {2} = 0 \\\\ g _ {1} (x _ {1}, x _ {2}) = x _ {1} + x _ {2} - 3 = 0 \\\\ \\lambda_ {2} = 0 \\end{array} \\right. \\Rightarrow \\left\\{ \\begin{array}{l} x _ {1} = 2 \\\\ x _ {2} = 1 \\\\ \\lambda_ {1} = 0 \\\\ \\lambda_ {2} = 0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            329,
+            739,
+            643
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "发现此解与情形1的解一样（仅是这个例子一样，一般不会一样），但带入 $g_{2}$ 函数时，有：",
+        "bbox": [
+            15,
+            666,
+            980,
+            721
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "text": "$$\ng _ {2} (x _ {1}, x _ {2}) = 5 - x _ {1} - 2 x _ {2} = 5 - 2 - 2 = 1 > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            251,
+            752,
+            743,
+            807
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "很可惜，依然不能使得 $g_{2} < 0$ ，故该解还是需要舍弃。",
+        "bbox": [
+            15,
+            894,
+            593,
+            949
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "page_number",
+        "text": "44 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "例子 2 (续 5)",
+        "text_level": 2,
+        "bbox": [
+            11,
+            47,
+            211,
+            113
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "(iv) 若 $\\lambda_1 > 0, \\lambda_2 > 0$ ，则 $g_1 = 0, g_2 = 0$",
+        "bbox": [
+            15,
+            207,
+            454,
+            262
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "此时，最优解在 $g_{1}$ 和 $g_{2}$ 函数的边界上，联立的四个方程为：",
+        "bbox": [
+            15,
+            329,
+            666,
+            380
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} \\frac {\\partial L}{\\partial x _ {1}} = 2 x _ {1} - 4 + \\lambda_ {1} - \\lambda_ {2} = 0 \\\\ \\frac {\\partial L}{\\partial x _ {2}} = 4 x _ {2} - 4 + \\lambda_ {1} - 2 \\lambda_ {2} = 0 \\\\ g _ {1} (x _ {1}, x _ {2}) = x _ {1} + x _ {2} - 3 = 0 \\\\ g _ {2} (x _ {1}, x _ {2}) = 5 - x _ {1} - 2 x _ {2} = 0 \\end{array} \\right. \\Rightarrow \\left\\{ \\begin{array}{l} x _ {1} = 1 \\\\ x _ {2} = 2 \\\\ \\lambda_ {1} = 8 \\\\ \\lambda_ {2} = 6 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            490,
+            739,
+            807
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "page_number",
+        "text": "45 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "image",
+        "img_path": "images/3b202f7dbe0661b30ee72414eab6f4d0d5efa800360f199b64d1f21448b9728f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            61,
+            117,
+            426,
+            737
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "$\\min f(x), x \\in \\mathbb{R}^{n}$",
+        "bbox": [
+            445,
+            192,
+            589,
+            235
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "s.t. $g_{i}(\\pmb {x}) = \\pmb{a}_{i}^{T}\\cdot \\pmb {x} + b_{i}\\leq 0$ 其中 $\\mathrm{i} = 1,2,3\\dots \\mathrm{m},\\pmb {a}_i\\in \\mathbb{R}^n,b_i\\in \\mathbb{R}$",
+        "bbox": [
+            443,
+            243,
+            955,
+            290
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} L (\\boldsymbol {x}, \\boldsymbol {\\lambda}) = f (\\boldsymbol {x}) + \\sum \\lambda_ {i}   g _ {i} \\left(\\boldsymbol {x}\\right) \\\\ \\Downarrow \\\\ \\nabla L (\\boldsymbol {x}, \\boldsymbol {\\lambda}) = 0 \\\\ \\Downarrow \\\\ - \\nabla f (\\boldsymbol {x}) = \\sum \\lambda_ {i} \\cdot \\nabla g _ {i} \\left(\\boldsymbol {x}\\right) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            593,
+            356,
+            830,
+            647
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "page_number",
+        "text": "46 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "KKT Conditions 的局限性",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            366,
+            109
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "1. 必要，非充分",
+        "text_level": 2,
+        "bbox": [
+            19,
+            396,
+            198,
+            443
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "2. 方程可能不容易求解",
+        "text_level": 2,
+        "bbox": [
+            19,
+            517,
+            271,
+            564
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "page_number",
+        "text": "47 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "KKT 的程序（ChatGPT 生成）",
+        "text_level": 2,
+        "bbox": [
+            13,
+            47,
+            432,
+            113
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "code",
+        "sub_type": "code",
+        "code_caption": [],
+        "code_body": "```python\nimport sympy as sp\n\ndef kkt_solver_symbolic(objective_func, variables, constraints):\n    \"\"\"\n    使用 KKT 条件求解非线性优化问题，通过符号求解方程。\n\n参数：\n- objective_func：目标函数，用户定义的符号表达式。\n- variables：决策变量的符号列表。\n- constraints：一个包含等式和不等式约束的字典：\n    - 'eq'：等式约束的列表，每个约束是一个符号表达式。\n    - 'ineq'：不等式约束的列表，每个约束是一个符号表达式。\n\n返回：\n- 解的结果，包括最优解和拉格朗日乘子。\n\"\"\"\n\n# 计算目标函数的梯度\nobjective_grad = [sp.diff(objective_func, var) for var in variables]\n\n# 创建拉格朗日乘子\nlambdas = sp.symbols(f'lambda:{len(constraints[\"eq\"])}')\nmus = sp.symbols(f'mu:{len(constraints[\"ineq\"]})')\n```",
+        "bbox": [
+            24,
+            125,
+            501,
+            996
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "code",
+        "sub_type": "code",
+        "code_caption": [],
+        "code_body": "```python\n# 测试使用\nif __name__ == \"__main__\":\n    # 定义符号变量\n    x1, x2 = sp.symbols('x1 x2')\n\n    # 目标函数 f(x) = 0.5 * x1^2 + 0.5 * x2^2\n    objective_func = 0.5 * x1**2 + 0.5 * x2**2\n\n    # 等式约束 x1 + x2 - 1 = 0\n    eq_constraint = x1 + x2 - 1\n\n    # 不等式约束 x1 >= 0, x2 >= 0\n    ineq_constraint1 = x1\n    ineq_constraint2 = x2\n\n    constraints = {\n    'eq': [eq_constraint],\n    'ineq': [ineq_constraint1, ineq_constraint2]\n    }\n\n    # 调用 KKT 求解器\n```",
+        "bbox": [
+            520,
+            133,
+            869,
+            1000
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "page_number",
+        "text": "48 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            992
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "KKT 的程序（更一般的解法）",
+        "text_level": 2,
+        "bbox": [
+            15,
+            50,
+            421,
+            109
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "1. 定义拉格朗日函数",
+        "text_level": 2,
+        "bbox": [
+            322,
+            137,
+            406,
+            156
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "构造拉格朗日函数：",
+        "bbox": [
+            322,
+            168,
+            399,
+            192
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL (x, \\lambda , \\mu) = f (x) + \\sum_ {i} \\lambda_ {i} g _ {i} (x) + \\sum_ {j} \\mu_ {j} h _ {j} (x)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            412,
+            203,
+            615,
+            254
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "其中， $\\lambda$ 是等式约束的拉格朗日乘子， $\\mu$ 是不等式约束的拉格朗日乘子，且 $\\mu_j \\geq 0$ 。",
+        "bbox": [
+            320,
+            274,
+            642,
+            298
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "2. 初始化",
+        "text_level": 2,
+        "bbox": [
+            322,
+            313,
+            364,
+            333
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "选择一个初始猜测值 $x_0$ ，并初始化拉格朗日乘子 $\\lambda$ 和 $\\mu$ （通常设置为零或较小的正数）。",
+        "bbox": [
+            322,
+            345,
+            662,
+            368
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "3.迭代步骤",
+        "text_level": 2,
+        "bbox": [
+            322,
+            384,
+            373,
+            407
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "1. 梯度步：在每一步，更新 $x$ 使得它沿着负梯度的方向前进，尽量减少拉格朗日函数值：",
+        "bbox": [
+            326,
+            419,
+            666,
+            439
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {k + 1} = x _ {k} - \\alpha \\nabla_ {x} L (x _ {k}, \\lambda_ {k}, \\mu_ {k})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            454,
+            454,
+            591,
+            482
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "其中 $\\alpha$ 是步长，通常可以通过线搜索确定。",
+        "bbox": [
+            339,
+            501,
+            505,
+            525
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "2. 拉格朗日乘子更新：",
+        "text_level": 2,
+        "bbox": [
+            326,
+            537,
+            415,
+            556
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 对于等式约束，更新拉格朗日乘子 $\\lambda$",
+        "bbox": [
+            344,
+            572,
+            501,
+            592
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lambda_ {k + 1} = \\lambda_ {k} + \\beta g (x _ {k + 1})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            481,
+            607,
+            582,
+            635
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 对于不等式约束，更新拉格朗日乘子 $\\mu$",
+        "bbox": [
+            344,
+            643,
+            509,
+            666
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mu_ {j, k + 1} = \\max (0, \\mu_ {j, k} + \\beta h _ {j} (x _ {k + 1}))\n$$",
+        "text_format": "latex",
+        "bbox": [
+            454,
+            682,
+            609,
+            709
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "这里 $\\beta$ 是拉格朗日乘子的步长。",
+        "bbox": [
+            355,
+            725,
+            479,
+            749
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "3. 检查 KKT 条件的收敛性：",
+        "text_level": 2,
+        "bbox": [
+            326,
+            760,
+            439,
+            784
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 检查以下条件是否满足：",
+        "bbox": [
+            344,
+            796,
+            450,
+            815
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 梯度条件： $\\nabla_{x}L(x,\\lambda ,\\mu)\\approx 0$",
+        "bbox": [
+            362,
+            831,
+            496,
+            854
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 可行性条件：约束 $g_{i}(x) = 0$ 和 $h_j(x)\\leq 0$",
+        "bbox": [
+            362,
+            862,
+            547,
+            886
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 互补松弛条件： $\\mu_{j}h_{j}(x) = 0$",
+        "bbox": [
+            362,
+            898,
+            492,
+            921
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "\\- 如果满足这些条件，则停止迭代；否，↓继续迭代。",
+        "bbox": [
+            344,
+            933,
+            551,
+            956
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "page_number",
+        "text": "49 / 50",
+        "bbox": [
+            944,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "作业: 利用 KKT conditions 求解 Optimization 问题",
+        "bbox": [
+            11,
+            47,
+            708,
+            113
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} \\min _ {x} x ^ {3} + 2 x ^ {2} - x + 1 \\\\ \\mathsf {s . t .} x ^ {2} \\leq 1 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            443,
+            611,
+            588
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "page_number",
+        "text": "50 / 50",
+        "bbox": [
+            942,
+            960,
+            988,
+            988
+        ],
+        "page_idx": 49
+    }
+]
